@@ -1,0 +1,8 @@
+condition,public_label,role
+C0,Leakage-free repeated nested cross-validation,Reference
+C1,Frozen holdout evaluation,Control
+C2,Non-nested tuning,Primary comparison
+C3,Globally fitted preprocessing,Primary comparison
+C4,Globally fitted supervised feature selection,Primary comparison
+C5,Global oversampling,Primary comparison
+C6,Fixed-hyperparameter cross-validation,Control

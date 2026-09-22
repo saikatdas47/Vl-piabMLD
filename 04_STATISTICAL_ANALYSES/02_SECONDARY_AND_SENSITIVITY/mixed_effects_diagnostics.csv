@@ -1,0 +1,13 @@
+"diagnostic","value"
+"model_converged",1
+"observations",408
+"dataset_clusters",14
+"fixed_effect_parameters",28
+"condition_number",19.3444414514808
+"residual_shapiro_W",0.811357750631204
+"residual_shapiro_p",1.70069311595847e-21
+"heteroscedasticity_lrt",332.772476171288
+"heteroscedasticity_p",8.0110223314728e-72
+"heterogeneous_minus_homogeneous_AIC",-326.772476171288
+"leave_one_dataset_out_failures",0
+"maximum_leave_one_out_coefficient_shift",0.0180177421918543

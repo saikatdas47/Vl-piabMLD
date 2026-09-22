@@ -1,0 +1,39 @@
+{
+  "dataset_id": "D014",
+  "sample_fraction": 1.0,
+  "chain": "PRIMARY",
+  "condition": "C4",
+  "model": "gradient_boosted_trees",
+  "repeat": 1,
+  "fold": "1",
+  "status": "PLANNED_LOCKED",
+  "phase": "primary",
+  "run_id": "D014__gradient_boosted_trees__primary__1p0__PRIMARY__C4__1__1__a39221f74119d23c",
+  "registry_authorization_status": "BLOCKED",
+  "runtime_authorization_scope": "FULL_LOCKED_SEQUENTIAL_EXPERIMENT",
+  "pilot_only": false,
+  "rows_in_analysis_frame": 1151,
+  "train_rows": 764,
+  "evaluation_rows": 387,
+  "runtime_seconds": 9.74739431099988,
+  "peak_rss_bytes": 278499328,
+  "warning_count": 1,
+  "warning_categories": [
+    "DeprecationWarning"
+  ],
+  "AUROC": 0.7794229412084035,
+  "AUPRC": 0.8253433952884983,
+  "balanced_accuracy": 0.6695211986319961,
+  "F1": 0.5941176470588235,
+  "Brier": 0.19199038136085983,
+  "calibration_intercept": 0.2136295812384463,
+  "calibration_slope": 1.1349887778958063,
+  "threshold": 0.6264263957915541,
+  "best_params": {
+    "model__max_leaf_nodes": 7,
+    "model__max_iter": 200,
+    "model__learning_rate": 0.05,
+    "model__l2_regularization": 10.0
+  },
+  "inner_cv_AUROC": 0.7328505912295089
+}

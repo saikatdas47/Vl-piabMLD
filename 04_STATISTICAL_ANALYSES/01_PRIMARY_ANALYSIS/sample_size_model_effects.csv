@@ -1,0 +1,241 @@
+dataset_id,dataset_name,model,sample_fraction,condition,delta_AUROC
+D001,Breast Cancer Wisconsin Diagnostic,gradient_boosted_trees,0.5,C2,0.01008265025258026
+D001,Breast Cancer Wisconsin Diagnostic,gradient_boosted_trees,0.75,C2,-0.0023073703338806206
+D001,Breast Cancer Wisconsin Diagnostic,gradient_boosted_trees,0.5,C3,0.003715988906883183
+D001,Breast Cancer Wisconsin Diagnostic,gradient_boosted_trees,0.75,C3,-0.004267229146330598
+D001,Breast Cancer Wisconsin Diagnostic,gradient_boosted_trees,0.5,C4,0.0042417034260570086
+D001,Breast Cancer Wisconsin Diagnostic,gradient_boosted_trees,0.75,C4,-0.005788121557411707
+D001,Breast Cancer Wisconsin Diagnostic,gradient_boosted_trees,0.5,C5,0.021707083959155327
+D001,Breast Cancer Wisconsin Diagnostic,gradient_boosted_trees,0.75,C5,0.003814464912233362
+D001,Breast Cancer Wisconsin Diagnostic,logistic_regression,0.5,C2,5.898229514034181e-05
+D001,Breast Cancer Wisconsin Diagnostic,logistic_regression,0.75,C2,-0.0016285497958076212
+D001,Breast Cancer Wisconsin Diagnostic,logistic_regression,0.5,C3,-0.0014565276999075616
+D001,Breast Cancer Wisconsin Diagnostic,logistic_regression,0.75,C3,-0.0014482067291661238
+D001,Breast Cancer Wisconsin Diagnostic,logistic_regression,0.5,C4,-0.011055018604783862
+D001,Breast Cancer Wisconsin Diagnostic,logistic_regression,0.75,C4,-0.005531377094670775
+D001,Breast Cancer Wisconsin Diagnostic,logistic_regression,0.5,C5,0.002066273255886819
+D001,Breast Cancer Wisconsin Diagnostic,logistic_regression,0.75,C5,0.0020034064478128277
+D001,Breast Cancer Wisconsin Diagnostic,random_forest,0.5,C2,0.005188180509136053
+D001,Breast Cancer Wisconsin Diagnostic,random_forest,0.75,C2,0.0014339198574732093
+D001,Breast Cancer Wisconsin Diagnostic,random_forest,0.5,C3,0.005845327298595215
+D001,Breast Cancer Wisconsin Diagnostic,random_forest,0.75,C3,0.002779229601661437
+D001,Breast Cancer Wisconsin Diagnostic,random_forest,0.5,C4,0.004177033556140408
+D001,Breast Cancer Wisconsin Diagnostic,random_forest,0.75,C4,-0.0009511364790186772
+D001,Breast Cancer Wisconsin Diagnostic,random_forest,0.5,C5,0.014405734713667906
+D001,Breast Cancer Wisconsin Diagnostic,random_forest,0.75,C5,0.0055751109489875494
+D002,Chronic Kidney Disease,gradient_boosted_trees,0.5,C2,-0.00014751494891274142
+D002,Chronic Kidney Disease,gradient_boosted_trees,0.75,C2,-0.00017710440893581314
+D002,Chronic Kidney Disease,gradient_boosted_trees,0.5,C3,-0.00014692739600952187
+D002,Chronic Kidney Disease,gradient_boosted_trees,0.75,C3,0.0004006913784327937
+D002,Chronic Kidney Disease,gradient_boosted_trees,0.5,C4,0.00014941934474343999
+D002,Chronic Kidney Disease,gradient_boosted_trees,0.75,C4,-0.002224315831660384
+D002,Chronic Kidney Disease,gradient_boosted_trees,0.5,C5,0.000807493540051607
+D002,Chronic Kidney Disease,gradient_boosted_trees,0.75,C5,0.001133529593184135
+D002,Chronic Kidney Disease,logistic_regression,0.5,C2,-0.00010611205432942139
+D002,Chronic Kidney Disease,logistic_regression,0.75,C2,0.00024304394601226686
+D002,Chronic Kidney Disease,logistic_regression,0.5,C3,-0.00046933703865670306
+D002,Chronic Kidney Disease,logistic_regression,0.75,C3,0.0003029358791244441
+D002,Chronic Kidney Disease,logistic_regression,0.5,C4,-0.0008524277141298553
+D002,Chronic Kidney Disease,logistic_regression,0.75,C4,0.00044312169312166194
+D002,Chronic Kidney Disease,logistic_regression,0.5,C5,-0.000490000399185675
+D002,Chronic Kidney Disease,logistic_regression,0.75,C5,-0.0014899760602221646
+D002,Chronic Kidney Disease,random_forest,0.5,C2,-0.001010786844580891
+D002,Chronic Kidney Disease,random_forest,0.75,C2,-0.0006659373541141322
+D002,Chronic Kidney Disease,random_forest,0.5,C3,-0.0013017038720833929
+D002,Chronic Kidney Disease,random_forest,0.75,C3,0.0005981884594999931
+D002,Chronic Kidney Disease,random_forest,0.5,C4,0.0002974769514914044
+D002,Chronic Kidney Disease,random_forest,0.75,C4,0.0003159360093782926
+D002,Chronic Kidney Disease,random_forest,0.5,C5,0.00047478191603034237
+D002,Chronic Kidney Disease,random_forest,0.75,C5,0.0008904995403034022
+D003,ILPD Indian Liver Patient,gradient_boosted_trees,0.5,C2,0.03904271936766779
+D003,ILPD Indian Liver Patient,gradient_boosted_trees,0.75,C2,-0.0006026022258839303
+D003,ILPD Indian Liver Patient,gradient_boosted_trees,0.5,C3,0.026062657622631158
+D003,ILPD Indian Liver Patient,gradient_boosted_trees,0.75,C3,-0.031118116888032454
+D003,ILPD Indian Liver Patient,gradient_boosted_trees,0.5,C4,0.04291157016509051
+D003,ILPD Indian Liver Patient,gradient_boosted_trees,0.75,C4,-0.011843979366273238
+D003,ILPD Indian Liver Patient,gradient_boosted_trees,0.5,C5,0.13132006130587448
+D003,ILPD Indian Liver Patient,gradient_boosted_trees,0.75,C5,0.12620635372519762
+D003,ILPD Indian Liver Patient,logistic_regression,0.5,C2,0.03148699240815078
+D003,ILPD Indian Liver Patient,logistic_regression,0.75,C2,0.0030085039919423018
+D003,ILPD Indian Liver Patient,logistic_regression,0.5,C3,0.020575769949576328
+D003,ILPD Indian Liver Patient,logistic_regression,0.75,C3,0.002189765913114816
+D003,ILPD Indian Liver Patient,logistic_regression,0.5,C4,0.04215788903552675
+D003,ILPD Indian Liver Patient,logistic_regression,0.75,C4,0.012356905492954096
+D003,ILPD Indian Liver Patient,logistic_regression,0.5,C5,0.04985597928819885
+D003,ILPD Indian Liver Patient,logistic_regression,0.75,C5,0.00982898770828855
+D003,ILPD Indian Liver Patient,random_forest,0.5,C2,0.0034660312748612254
+D003,ILPD Indian Liver Patient,random_forest,0.75,C2,0.011144190292009859
+D003,ILPD Indian Liver Patient,random_forest,0.5,C3,0.006993140681978982
+D003,ILPD Indian Liver Patient,random_forest,0.75,C3,-0.004641129690454937
+D003,ILPD Indian Liver Patient,random_forest,0.5,C4,0.017141839728127106
+D003,ILPD Indian Liver Patient,random_forest,0.75,C4,0.011126933424859153
+D003,ILPD Indian Liver Patient,random_forest,0.5,C5,0.10131246847387132
+D003,ILPD Indian Liver Patient,random_forest,0.75,C5,0.10371516382119905
+D005,Heart Disease Cleveland,gradient_boosted_trees,0.75,C2,0.014283555767297118
+D005,Heart Disease Cleveland,gradient_boosted_trees,0.75,C3,0.0033780634645049767
+D005,Heart Disease Cleveland,gradient_boosted_trees,0.75,C4,0.02302015902872767
+D005,Heart Disease Cleveland,gradient_boosted_trees,0.75,C5,0.021719109077511844
+D005,Heart Disease Cleveland,logistic_regression,0.75,C2,-0.0027524411752946065
+D005,Heart Disease Cleveland,logistic_regression,0.75,C3,-0.000424329809556534
+D005,Heart Disease Cleveland,logistic_regression,0.75,C4,0.0025599569720126114
+D005,Heart Disease Cleveland,logistic_regression,0.75,C5,0.007179322105246522
+D005,Heart Disease Cleveland,random_forest,0.75,C2,0.014692702542937974
+D005,Heart Disease Cleveland,random_forest,0.75,C3,0.006224705594868096
+D005,Heart Disease Cleveland,random_forest,0.75,C4,0.014059478102864453
+D005,Heart Disease Cleveland,random_forest,0.75,C5,0.012455190947395556
+D006,SPECT Heart,gradient_boosted_trees,0.75,C2,0.043996847722443166
+D006,SPECT Heart,gradient_boosted_trees,0.75,C3,-0.0065380837345460074
+D006,SPECT Heart,gradient_boosted_trees,0.75,C4,0.02071831700137894
+D006,SPECT Heart,gradient_boosted_trees,0.75,C5,0.062493009083223305
+D006,SPECT Heart,logistic_regression,0.75,C2,0.071618042993842
+D006,SPECT Heart,logistic_regression,0.75,C3,0.009795763541834202
+D006,SPECT Heart,logistic_regression,0.75,C4,0.04783736698025387
+D006,SPECT Heart,logistic_regression,0.75,C5,0.0612232537881191
+D006,SPECT Heart,random_forest,0.75,C2,0.01783204839061192
+D006,SPECT Heart,random_forest,0.75,C3,-0.007868571619210174
+D006,SPECT Heart,random_forest,0.75,C4,0.01755243957856545
+D006,SPECT Heart,random_forest,0.75,C5,0.07532872521039602
+D010,HCV Data,gradient_boosted_trees,0.75,C2,-0.0008553478324290209
+D010,HCV Data,gradient_boosted_trees,0.75,C3,0.0012696331051255116
+D010,HCV Data,gradient_boosted_trees,0.75,C4,-0.044058228441270164
+D010,HCV Data,gradient_boosted_trees,0.75,C5,0.01787078535007547
+D010,HCV Data,logistic_regression,0.75,C2,0.012839654727526462
+D010,HCV Data,logistic_regression,0.75,C3,0.0031973833351393033
+D010,HCV Data,logistic_regression,0.75,C4,0.006541384495223013
+D010,HCV Data,logistic_regression,0.75,C5,0.01788941270926303
+D010,HCV Data,random_forest,0.75,C2,-0.003030519499103268
+D010,HCV Data,random_forest,0.75,C3,-0.009112376627538499
+D010,HCV Data,random_forest,0.75,C4,-0.0383069663698814
+D010,HCV Data,random_forest,0.75,C5,0.015037250706202099
+D011,Mammographic Mass,gradient_boosted_trees,0.5,C2,-0.0011119519457196692
+D011,Mammographic Mass,gradient_boosted_trees,0.75,C2,-0.006105645038713248
+D011,Mammographic Mass,gradient_boosted_trees,0.5,C3,-0.0005308891435044094
+D011,Mammographic Mass,gradient_boosted_trees,0.75,C3,-0.009560356929187774
+D011,Mammographic Mass,gradient_boosted_trees,0.5,C4,0.0020098325969383213
+D011,Mammographic Mass,gradient_boosted_trees,0.75,C4,-0.007964369096510548
+D011,Mammographic Mass,gradient_boosted_trees,0.5,C5,0.007035406178474535
+D011,Mammographic Mass,gradient_boosted_trees,0.75,C5,-0.008936671239698324
+D011,Mammographic Mass,logistic_regression,0.5,C2,0.006502292793336473
+D011,Mammographic Mass,logistic_regression,0.75,C2,0.0025414643167075424
+D011,Mammographic Mass,logistic_regression,0.5,C3,0.004233490936274897
+D011,Mammographic Mass,logistic_regression,0.75,C3,0.0005521253415324834
+D011,Mammographic Mass,logistic_regression,0.5,C4,-0.013628123523777624
+D011,Mammographic Mass,logistic_regression,0.75,C4,-0.027233764982842246
+D011,Mammographic Mass,logistic_regression,0.5,C5,0.0031776804970418127
+D011,Mammographic Mass,logistic_regression,0.75,C5,-0.000578544471199316
+D011,Mammographic Mass,random_forest,0.5,C2,0.0012961982674232209
+D011,Mammographic Mass,random_forest,0.75,C2,-0.008475587679017793
+D011,Mammographic Mass,random_forest,0.5,C3,-0.003448566032899003
+D011,Mammographic Mass,random_forest,0.75,C3,-0.012859604401600389
+D011,Mammographic Mass,random_forest,0.5,C4,-0.004844909683737519
+D011,Mammographic Mass,random_forest,0.75,C4,-0.022848880512564396
+D011,Mammographic Mass,random_forest,0.5,C5,0.009341951931816972
+D011,Mammographic Mass,random_forest,0.75,C5,-0.00484975727164394
+D013,Early Stage Diabetes Risk Prediction,gradient_boosted_trees,0.5,C2,0.0013967297592376582
+D013,Early Stage Diabetes Risk Prediction,gradient_boosted_trees,0.75,C2,0.012088756238553766
+D013,Early Stage Diabetes Risk Prediction,gradient_boosted_trees,0.5,C3,-0.013800993755532898
+D013,Early Stage Diabetes Risk Prediction,gradient_boosted_trees,0.75,C3,0.008035366252926002
+D013,Early Stage Diabetes Risk Prediction,gradient_boosted_trees,0.5,C4,-0.014031516848033054
+D013,Early Stage Diabetes Risk Prediction,gradient_boosted_trees,0.75,C4,0.00540229922615465
+D013,Early Stage Diabetes Risk Prediction,gradient_boosted_trees,0.5,C5,0.02673106619476595
+D013,Early Stage Diabetes Risk Prediction,gradient_boosted_trees,0.75,C5,0.031229471609508286
+D013,Early Stage Diabetes Risk Prediction,logistic_regression,0.5,C2,-0.005356726242939702
+D013,Early Stage Diabetes Risk Prediction,logistic_regression,0.75,C2,-0.0010778352763443078
+D013,Early Stage Diabetes Risk Prediction,logistic_regression,0.5,C3,-0.0002578485607608316
+D013,Early Stage Diabetes Risk Prediction,logistic_regression,0.75,C3,-0.014211362742551525
+D013,Early Stage Diabetes Risk Prediction,logistic_regression,0.5,C4,0.025204783303976463
+D013,Early Stage Diabetes Risk Prediction,logistic_regression,0.75,C4,-0.0027217792514102612
+D013,Early Stage Diabetes Risk Prediction,logistic_regression,0.5,C5,0.018048289226850756
+D013,Early Stage Diabetes Risk Prediction,logistic_regression,0.75,C5,0.0070365620802732565
+D013,Early Stage Diabetes Risk Prediction,random_forest,0.5,C2,-0.010043446138404799
+D013,Early Stage Diabetes Risk Prediction,random_forest,0.75,C2,0.014413443147331617
+D013,Early Stage Diabetes Risk Prediction,random_forest,0.5,C3,-8.840841148727296e-05
+D013,Early Stage Diabetes Risk Prediction,random_forest,0.75,C3,0.0027596355329373434
+D013,Early Stage Diabetes Risk Prediction,random_forest,0.5,C4,-0.017419619632840666
+D013,Early Stage Diabetes Risk Prediction,random_forest,0.75,C4,-0.012975732926897354
+D013,Early Stage Diabetes Risk Prediction,random_forest,0.5,C5,0.04466805298429599
+D013,Early Stage Diabetes Risk Prediction,random_forest,0.75,C5,0.052809809607239244
+D014,Diabetic Retinopathy Debrecen,gradient_boosted_trees,0.5,C2,0.002877395402700711
+D014,Diabetic Retinopathy Debrecen,gradient_boosted_trees,0.75,C2,0.01223786889570222
+D014,Diabetic Retinopathy Debrecen,gradient_boosted_trees,0.5,C3,-0.0013599372722441494
+D014,Diabetic Retinopathy Debrecen,gradient_boosted_trees,0.75,C3,0.0014975897701237084
+D014,Diabetic Retinopathy Debrecen,gradient_boosted_trees,0.5,C4,-0.004588398779455161
+D014,Diabetic Retinopathy Debrecen,gradient_boosted_trees,0.75,C4,0.006078204301904755
+D014,Diabetic Retinopathy Debrecen,gradient_boosted_trees,0.5,C5,-0.004330257610633326
+D014,Diabetic Retinopathy Debrecen,gradient_boosted_trees,0.75,C5,0.03410099985477777
+D014,Diabetic Retinopathy Debrecen,logistic_regression,0.5,C2,-0.015970246046759895
+D014,Diabetic Retinopathy Debrecen,logistic_regression,0.75,C2,0.0031423992659130873
+D014,Diabetic Retinopathy Debrecen,logistic_regression,0.5,C3,-0.0019759625061674946
+D014,Diabetic Retinopathy Debrecen,logistic_regression,0.75,C3,-0.0010947383580888204
+D014,Diabetic Retinopathy Debrecen,logistic_regression,0.5,C4,-0.005916462639540598
+D014,Diabetic Retinopathy Debrecen,logistic_regression,0.75,C4,9.69698696372534e-05
+D014,Diabetic Retinopathy Debrecen,logistic_regression,0.5,C5,-0.0004638908681505738
+D014,Diabetic Retinopathy Debrecen,logistic_regression,0.75,C5,0.005689877942328669
+D014,Diabetic Retinopathy Debrecen,random_forest,0.5,C2,-0.004212934106172628
+D014,Diabetic Retinopathy Debrecen,random_forest,0.75,C2,0.021107046351358627
+D014,Diabetic Retinopathy Debrecen,random_forest,0.5,C3,0.007435854084415716
+D014,Diabetic Retinopathy Debrecen,random_forest,0.75,C3,0.007589898251280092
+D014,Diabetic Retinopathy Debrecen,random_forest,0.5,C4,-0.006844354497310912
+D014,Diabetic Retinopathy Debrecen,random_forest,0.75,C4,0.012674732489221352
+D014,Diabetic Retinopathy Debrecen,random_forest,0.5,C5,0.0031696944733050625
+D014,Diabetic Retinopathy Debrecen,random_forest,0.75,C5,0.03496039434327969
+D015,Thoracic Surgery Data,gradient_boosted_trees,0.75,C2,-0.036782153934416084
+D015,Thoracic Surgery Data,gradient_boosted_trees,0.75,C3,-0.02569071125693001
+D015,Thoracic Surgery Data,gradient_boosted_trees,0.75,C4,-0.04326538909598687
+D015,Thoracic Surgery Data,gradient_boosted_trees,0.75,C5,0.22087107843356268
+D015,Thoracic Surgery Data,logistic_regression,0.75,C2,0.026664728959483686
+D015,Thoracic Surgery Data,logistic_regression,0.75,C3,0.01061418546522086
+D015,Thoracic Surgery Data,logistic_regression,0.75,C4,0.04122369635525158
+D015,Thoracic Surgery Data,logistic_regression,0.75,C5,0.12633253857295468
+D015,Thoracic Surgery Data,random_forest,0.75,C2,-0.0027170646791999653
+D015,Thoracic Surgery Data,random_forest,0.75,C3,-0.013944140738204158
+D015,Thoracic Surgery Data,random_forest,0.75,C4,0.034369160858726544
+D015,Thoracic Surgery Data,random_forest,0.75,C5,0.25421111463307433
+D016,Haberman's Survival,gradient_boosted_trees,0.75,C2,0.11561048944224217
+D016,Haberman's Survival,gradient_boosted_trees,0.75,C3,0.03618031995516502
+D016,Haberman's Survival,gradient_boosted_trees,0.75,C4,0.09499696395833324
+D016,Haberman's Survival,gradient_boosted_trees,0.75,C5,0.22808394665365428
+D016,Haberman's Survival,logistic_regression,0.75,C2,0.035919764572330704
+D016,Haberman's Survival,logistic_regression,0.75,C3,0.03156106332430131
+D016,Haberman's Survival,logistic_regression,0.75,C4,0.04895555900823734
+D016,Haberman's Survival,logistic_regression,0.75,C5,0.044180504930344755
+D016,Haberman's Survival,random_forest,0.75,C2,0.022072211556108723
+D016,Haberman's Survival,random_forest,0.75,C3,-0.016256163673486368
+D016,Haberman's Survival,random_forest,0.75,C4,0.03278869929477912
+D016,Haberman's Survival,random_forest,0.75,C5,0.08383304595616559
+D019,Myocardial Infarction Complications,gradient_boosted_trees,0.5,C2,0.014812626487519909
+D019,Myocardial Infarction Complications,gradient_boosted_trees,0.75,C2,0.008007566401179722
+D019,Myocardial Infarction Complications,gradient_boosted_trees,0.5,C3,0.004274641257439038
+D019,Myocardial Infarction Complications,gradient_boosted_trees,0.75,C3,0.015347165199801394
+D019,Myocardial Infarction Complications,gradient_boosted_trees,0.5,C4,0.00039588874907015015
+D019,Myocardial Infarction Complications,gradient_boosted_trees,0.75,C4,-0.009285018782114851
+D019,Myocardial Infarction Complications,gradient_boosted_trees,0.5,C5,0.1298093875764348
+D019,Myocardial Infarction Complications,gradient_boosted_trees,0.75,C5,0.14838209257210955
+D019,Myocardial Infarction Complications,logistic_regression,0.5,C2,0.0069346825207723395
+D019,Myocardial Infarction Complications,logistic_regression,0.75,C2,0.008001770188036605
+D019,Myocardial Infarction Complications,logistic_regression,0.5,C3,-0.00339150705584379
+D019,Myocardial Infarction Complications,logistic_regression,0.75,C3,0.003104807657301034
+D019,Myocardial Infarction Complications,logistic_regression,0.5,C4,0.0015309431933157036
+D019,Myocardial Infarction Complications,logistic_regression,0.75,C4,0.003967906540373822
+D019,Myocardial Infarction Complications,logistic_regression,0.5,C5,0.043992612295109645
+D019,Myocardial Infarction Complications,logistic_regression,0.75,C5,0.0513791771907699
+D019,Myocardial Infarction Complications,random_forest,0.5,C2,0.00822444335268302
+D019,Myocardial Infarction Complications,random_forest,0.75,C2,-4.431916281433246e-05
+D019,Myocardial Infarction Complications,random_forest,0.5,C3,-0.006589739323413113
+D019,Myocardial Infarction Complications,random_forest,0.75,C3,0.0005512305735538847
+D019,Myocardial Infarction Complications,random_forest,0.5,C4,-0.004908003385290405
+D019,Myocardial Infarction Complications,random_forest,0.75,C4,-0.003828279907373444
+D019,Myocardial Infarction Complications,random_forest,0.5,C5,0.12081656960752918
+D019,Myocardial Infarction Complications,random_forest,0.75,C5,0.13196934675333571
+D020,Differentiated Thyroid Cancer Recurrence,gradient_boosted_trees,0.75,C2,0.011745240977886207
+D020,Differentiated Thyroid Cancer Recurrence,gradient_boosted_trees,0.75,C3,0.006357344551519151
+D020,Differentiated Thyroid Cancer Recurrence,gradient_boosted_trees,0.75,C4,0.006806469188268993
+D020,Differentiated Thyroid Cancer Recurrence,gradient_boosted_trees,0.75,C5,0.028782292891517347
+D020,Differentiated Thyroid Cancer Recurrence,logistic_regression,0.75,C2,0.0064601728368473
+D020,Differentiated Thyroid Cancer Recurrence,logistic_regression,0.75,C3,-0.004115268531879157
+D020,Differentiated Thyroid Cancer Recurrence,logistic_regression,0.75,C4,-0.0006315932731935092
+D020,Differentiated Thyroid Cancer Recurrence,logistic_regression,0.75,C5,0.012503886658184693
+D020,Differentiated Thyroid Cancer Recurrence,random_forest,0.75,C2,0.006669426783740162
+D020,Differentiated Thyroid Cancer Recurrence,random_forest,0.75,C3,0.004028088727471624
+D020,Differentiated Thyroid Cancer Recurrence,random_forest,0.75,C4,-0.005240675594915145
+D020,Differentiated Thyroid Cancer Recurrence,random_forest,0.75,C5,0.02445639912827602

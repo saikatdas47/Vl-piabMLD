@@ -1,0 +1,81 @@
+{
+  "release_status": "PASS",
+  "public_file_count_excluding_release_records": 11860,
+  "included_dataset_count": 14,
+  "validated_atomic_result_units": 2946,
+  "atomic_summary_files": 2946,
+  "final_figure_count": 8,
+  "private_pattern_flags": 0,
+  "forbidden_builder_file_flags": 0,
+  "figure_generation_code_flags": 0,
+  "python_syntax_errors": 0,
+  "json_parse_errors": 0,
+  "oversized_files": 0,
+  "inventory_sha256": "a8f48246c86401a187f9884869c16839f377237a866453f4b1a8c678df0dc707",
+  "figures": [
+    {
+      "file": "05_FINAL_FIGURES/01_MAIN_TEXT/Figure_1_Primary_Contrasts.png",
+      "width_px": 2772,
+      "height_px": 1482,
+      "dpi_x": 400,
+      "dpi_y": 400
+    },
+    {
+      "file": "05_FINAL_FIGURES/01_MAIN_TEXT/Figure_2_Dataset_Heterogeneity.png",
+      "width_px": 2923,
+      "height_px": 2485,
+      "dpi_x": 400,
+      "dpi_y": 400
+    },
+    {
+      "file": "05_FINAL_FIGURES/01_MAIN_TEXT/Figure_3_Sample_Size.png",
+      "width_px": 2847,
+      "height_px": 1762,
+      "dpi_x": 400,
+      "dpi_y": 400
+    },
+    {
+      "file": "05_FINAL_FIGURES/01_MAIN_TEXT/Figure_4_Moderators.png",
+      "width_px": 3967,
+      "height_px": 1628,
+      "dpi_x": 400,
+      "dpi_y": 400
+    },
+    {
+      "file": "05_FINAL_FIGURES/01_MAIN_TEXT/Figure_5_Model_Family.png",
+      "width_px": 2850,
+      "height_px": 1802,
+      "dpi_x": 400,
+      "dpi_y": 400
+    },
+    {
+      "file": "05_FINAL_FIGURES/02_SUPPLEMENTARY/Figure_S1_Model_Family_Sensitivity.png",
+      "width_px": 2850,
+      "height_px": 1721,
+      "dpi_x": 400,
+      "dpi_y": 400
+    },
+    {
+      "file": "05_FINAL_FIGURES/02_SUPPLEMENTARY/Figure_S2_Mixed_Model_Diagnostics.png",
+      "width_px": 3568,
+      "height_px": 1562,
+      "dpi_x": 400,
+      "dpi_y": 400
+    },
+    {
+      "file": "05_FINAL_FIGURES/02_SUPPLEMENTARY/Figure_S3_Robustness.png",
+      "width_px": 3555,
+      "height_px": 1562,
+      "dpi_x": 400,
+      "dpi_y": 400
+    }
+  ],
+  "details": {
+    "private_hits": [],
+    "forbidden_names": [],
+    "figure_generation_code_hits": [],
+    "syntax_errors": [],
+    "json_errors": [],
+    "oversized": []
+  }
+}

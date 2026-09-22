@@ -1,0 +1,11 @@
+{
+  "cell_rows": 408,
+  "datasets": 14,
+  "models": 3,
+  "conditions": 4,
+  "datasets_estimable_at_50_percent": 7,
+  "datasets_estimable_at_75_percent": 13,
+  "datasets_estimable_at_100_percent": 14,
+  "datasets_with_all_three_fractions": 7,
+  "missing_analysis_fields": 0
+}

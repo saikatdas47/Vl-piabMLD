@@ -1,0 +1,36 @@
+{
+  "dataset_id": "D002",
+  "sample_fraction": 0.5,
+  "chain": 0,
+  "condition": "C5",
+  "model": "logistic_regression",
+  "repeat": 0,
+  "fold": "2",
+  "status": "COMPLETE",
+  "phase": "sample_size",
+  "run_id": "D002__logistic_regression__sample_size__0p5__0__C5__0__2__d983b664ddc8c090",
+  "registry_authorization_status": "BLOCKED",
+  "runtime_authorization_scope": "FULL_LOCKED_SEQUENTIAL_EXPERIMENT",
+  "config_sha256": "62c9b3c1383ff6e1b0b188401708c4575ccc3ea4b3be4f96517b78afe9097035",
+  "runner_sha256": "88af17735ed3033f37b70c563e7237b25a3d991c4e69d7fe6b979616b2accf1c",
+  "engine_sha256": "f22fec9bcb08a4521fec830974b96175eaeb04a15aba3b716cfac83e7244a7c9",
+  "pipeline_sha256": "35d17e29b9813e824deaa02f0f9ca7cc4da228b9354c3dcb7c0fe9e3ca8e4c86",
+  "pilot_only": false,
+  "started_utc": "2026-09-16T09:30:12.530729+00:00",
+  "environment": {
+    "python": "3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]",
+    "platform": "linux"
+  },
+  "data_reference_sha256": "4b69135a7f93dbb0e712729ffa0a270d7437d4f3743827f3e0bca41bd61fa45c",
+  "warnings": [
+    {
+      "category": "DeprecationWarning",
+      "message": "scipy.optimize: The `disp` and `iprint` options of the L-BFGS-B solver are deprecated and will be removed in SciPy 1.18.0.",
+      "count": 1
+    }
+  ],
+  "summary_sha256": "558fa9e34c17b87d8f7a5b267177b8df686b2ddf9f39f3840ae2f068bc8c8ffa",
+  "predictions_sha256": "4c80e64c0b8415293be6961818b759911fca30228b869e6998e6c01a53b1afd4",
+  "provenance_sha256": "b6d44d4ec75460b29b0e740a59ca3361cb8c5a512ca36d4816e1c58205997d49",
+  "completed_utc": "2026-09-16T09:30:13.597878+00:00"
+}

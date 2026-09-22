@@ -1,0 +1,36 @@
+{
+  "dataset_id": "D016",
+  "sample_fraction": 1.0,
+  "chain": "PRIMARY",
+  "condition": "C4",
+  "model": "gradient_boosted_trees",
+  "repeat": 1,
+  "fold": "1",
+  "status": "COMPLETE",
+  "phase": "primary",
+  "run_id": "D016__gradient_boosted_trees__primary__1p0__PRIMARY__C4__1__1__e46939c29abae807",
+  "registry_authorization_status": "BLOCKED",
+  "runtime_authorization_scope": "FULL_LOCKED_SEQUENTIAL_EXPERIMENT",
+  "config_sha256": "62c9b3c1383ff6e1b0b188401708c4575ccc3ea4b3be4f96517b78afe9097035",
+  "runner_sha256": "88af17735ed3033f37b70c563e7237b25a3d991c4e69d7fe6b979616b2accf1c",
+  "engine_sha256": "f22fec9bcb08a4521fec830974b96175eaeb04a15aba3b716cfac83e7244a7c9",
+  "pipeline_sha256": "35d17e29b9813e824deaa02f0f9ca7cc4da228b9354c3dcb7c0fe9e3ca8e4c86",
+  "pilot_only": false,
+  "started_utc": "2026-09-18T13:08:46.694236+00:00",
+  "environment": {
+    "python": "3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]",
+    "platform": "linux"
+  },
+  "data_reference_sha256": "82894b29f7e921eec3247ee9f14157cbcbb65b139d841dba79c344195b48a088",
+  "warnings": [
+    {
+      "category": "DeprecationWarning",
+      "message": "scipy.optimize: The `disp` and `iprint` options of the L-BFGS-B solver are deprecated and will be removed in SciPy 1.18.0.",
+      "count": 1
+    }
+  ],
+  "summary_sha256": "1769038703b2b24aad9a448c652a94b72bae47872a3e597f5668e93eb5fa4eec",
+  "predictions_sha256": "abecea6fd43adc3e6362f587349ea6e43c75bdd2813a0ad9a554bbbabe4c822f",
+  "provenance_sha256": "4814b59696cda1cc41020edcdeb54a37f893923a8e6dfde7babbe6db5d688dcd",
+  "completed_utc": "2026-09-18T13:08:50.419228+00:00"
+}

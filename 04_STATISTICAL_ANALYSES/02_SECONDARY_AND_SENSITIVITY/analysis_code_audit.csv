@@ -1,0 +1,7 @@
+hypothesis,protocol_requirement,implementation_evidence,audit_status
+H1,Four paired C2-C5 contrasts vs C0; Wilcoxon; Holm; bootstrap CI,build_final_analysis.py; confirmatory_tests.csv,COMPLETE
+H2,C2 vs C0 within the confirmatory family,build_final_analysis.py; confirmatory_tests.csv,COMPLETE
+H3,Registered fractions; dataset independent unit; mixed-model moderator; matched fallback,prepare_secondary_analysis.py; run_secondary_mixed_effects.R; h3_matched_trend_summary.csv,COMPLETE_WITH_FALLBACK
+H4,Feature-to-sample moderator and stratified fallback,run_secondary_mixed_effects.R; h4_h5_stratified_correlations.csv,COMPLETE_WITH_FALLBACK
+H5,Minority-prevalence moderator and stratified fallback,run_secondary_mixed_effects.R; h4_h5_stratified_correlations.csv,COMPLETE_WITH_FALLBACK
+H6,Condition by model-family interaction and paired fallback,run_secondary_mixed_effects.R; h6_paired_model_family_contrasts.csv,COMPLETE_WITH_FALLBACK

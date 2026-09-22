@@ -1,0 +1,137 @@
+dataset_id,display_index,dataset_name,condition,sample_fraction,delta_AUROC
+D001,Dataset 01,Breast Cancer Wisconsin Diagnostic,C2,0.5,0.0051099376856188474
+D001,Dataset 01,Breast Cancer Wisconsin Diagnostic,C2,0.75,-0.0008340000907383332
+D001,Dataset 01,Breast Cancer Wisconsin Diagnostic,C2,1.0,-0.0009361374225287643
+D001,Dataset 01,Breast Cancer Wisconsin Diagnostic,C3,0.5,0.0027015961685235997
+D001,Dataset 01,Breast Cancer Wisconsin Diagnostic,C3,0.75,-0.0009787354246117333
+D001,Dataset 01,Breast Cancer Wisconsin Diagnostic,C3,1.0,0.0003814842800755667
+D001,Dataset 01,Breast Cancer Wisconsin Diagnostic,C4,0.5,-0.000878760540862133
+D001,Dataset 01,Breast Cancer Wisconsin Diagnostic,C4,0.75,-0.004090211710367
+D001,Dataset 01,Breast Cancer Wisconsin Diagnostic,C4,1.0,-0.0037660579111795
+D001,Dataset 01,Breast Cancer Wisconsin Diagnostic,C5,0.5,0.012726363976236665
+D001,Dataset 01,Breast Cancer Wisconsin Diagnostic,C5,0.75,0.0037976607696778666
+D001,Dataset 01,Breast Cancer Wisconsin Diagnostic,C5,1.0,0.0039037736156671663
+D002,Dataset 02,Chronic Kidney Disease,C2,0.5,-0.0004214712826076334
+D002,Dataset 02,Chronic Kidney Disease,C2,0.75,-0.0001999992723459
+D002,Dataset 02,Chronic Kidney Disease,C2,1.0,0.00015328492738766458
+D002,Dataset 02,Chronic Kidney Disease,C3,0.5,-0.0006393227689165
+D002,Dataset 02,Chronic Kidney Disease,C3,0.75,0.0004339385723523333
+D002,Dataset 02,Chronic Kidney Disease,C3,1.0,-0.00010774534329369507
+D002,Dataset 02,Chronic Kidney Disease,C4,0.5,-0.00013517713929833334
+D002,Dataset 02,Chronic Kidney Disease,C4,0.75,-0.0004884193763868333
+D002,Dataset 02,Chronic Kidney Disease,C4,1.0,-0.0003814126093850385
+D002,Dataset 02,Chronic Kidney Disease,C5,0.5,0.00026409168563209997
+D002,Dataset 02,Chronic Kidney Disease,C5,0.75,0.00017801769108846669
+D002,Dataset 02,Chronic Kidney Disease,C5,1.0,0.00029087494941363733
+D003,Dataset 03,ILPD Indian Liver Patient,C2,0.5,0.024665247683559866
+D003,Dataset 03,ILPD Indian Liver Patient,C2,0.75,0.0045166973526893995
+D003,Dataset 03,ILPD Indian Liver Patient,C2,1.0,0.0038836649042464995
+D003,Dataset 03,ILPD Indian Liver Patient,C3,0.5,0.0178771894180621
+D003,Dataset 03,ILPD Indian Liver Patient,C3,0.75,-0.0111898268884575
+D003,Dataset 03,ILPD Indian Liver Patient,C3,1.0,0.004602011139221567
+D003,Dataset 03,ILPD Indian Liver Patient,C4,0.5,0.0340704329762481
+D003,Dataset 03,ILPD Indian Liver Patient,C4,0.75,0.003879953183846633
+D003,Dataset 03,ILPD Indian Liver Patient,C4,1.0,0.0053960861986407
+D003,Dataset 03,ILPD Indian Liver Patient,C5,0.5,0.09416283635598151
+D003,Dataset 03,ILPD Indian Liver Patient,C5,0.75,0.07991683508489503
+D003,Dataset 03,ILPD Indian Liver Patient,C5,1.0,0.0973907592731393
+D005,Dataset 04,Heart Disease Cleveland,C2,0.75,0.008741272378313467
+D005,Dataset 04,Heart Disease Cleveland,C2,1.0,0.011346918699723966
+D005,Dataset 04,Heart Disease Cleveland,C3,0.75,0.0030594797499388002
+D005,Dataset 04,Heart Disease Cleveland,C3,1.0,-0.0012283640450481666
+D005,Dataset 04,Heart Disease Cleveland,C4,0.75,0.013213198034534865
+D005,Dataset 04,Heart Disease Cleveland,C4,1.0,-0.0010625301306643332
+D005,Dataset 04,Heart Disease Cleveland,C5,0.75,0.013784540710051266
+D005,Dataset 04,Heart Disease Cleveland,C5,1.0,0.007500174822841834
+D006,Dataset 05,SPECT Heart,C2,0.75,0.04448231303563233
+D006,Dataset 05,SPECT Heart,C2,1.0,0.028081331765127063
+D006,Dataset 05,SPECT Heart,C3,0.75,-0.0015369639373072998
+D006,Dataset 05,SPECT Heart,C3,1.0,-0.008472727801527599
+D006,Dataset 05,SPECT Heart,C4,0.75,0.028702707853399363
+D006,Dataset 05,SPECT Heart,C4,1.0,0.027732610049778967
+D006,Dataset 05,SPECT Heart,C5,0.75,0.06634832936057947
+D006,Dataset 05,SPECT Heart,C5,1.0,0.06830295823203443
+D009,Dataset 06,Cervical Cancer Risk Factors,C2,1.0,-0.012491949942347065
+D009,Dataset 06,Cervical Cancer Risk Factors,C3,1.0,-0.012808342872939102
+D009,Dataset 06,Cervical Cancer Risk Factors,C4,1.0,0.013324421802447231
+D009,Dataset 06,Cervical Cancer Risk Factors,C5,1.0,0.2699442417558565
+D010,Dataset 07,HCV Data,C2,0.75,0.002984595798664733
+D010,Dataset 07,HCV Data,C2,1.0,0.005503998683296434
+D010,Dataset 07,HCV Data,C3,0.75,-0.0015484533957578668
+D010,Dataset 07,HCV Data,C3,1.0,-0.003989167720727866
+D010,Dataset 07,HCV Data,C4,0.75,-0.025274603438642834
+D010,Dataset 07,HCV Data,C4,1.0,-0.027268673171389566
+D010,Dataset 07,HCV Data,C5,0.75,0.0169324829218468
+D010,Dataset 07,HCV Data,C5,1.0,0.01762063492902807
+D011,Dataset 08,Mammographic Mass,C2,0.5,0.00222884637168
+D011,Dataset 08,Mammographic Mass,C2,0.75,-0.004013256133674466
+D011,Dataset 08,Mammographic Mass,C2,1.0,-0.004753311346286133
+D011,Dataset 08,Mammographic Mass,C3,0.5,8.467858662380009e-05
+D011,Dataset 08,Mammographic Mass,C3,0.75,-0.0072892786630852
+D011,Dataset 08,Mammographic Mass,C3,1.0,-0.0031938161982232997
+D011,Dataset 08,Mammographic Mass,C4,0.5,-0.005487733536858934
+D011,Dataset 08,Mammographic Mass,C4,0.75,-0.01934900486397233
+D011,Dataset 08,Mammographic Mass,C4,1.0,-0.027964904946397296
+D011,Dataset 08,Mammographic Mass,C5,0.5,0.0065183462024444
+D011,Dataset 08,Mammographic Mass,C5,0.75,-0.004788324327513833
+D011,Dataset 08,Mammographic Mass,C5,1.0,-0.0027188924062014337
+D013,Dataset 09,Early Stage Diabetes Risk Prediction,C2,0.5,-0.004667814207368933
+D013,Dataset 09,Early Stage Diabetes Risk Prediction,C2,0.75,0.008474788036513666
+D013,Dataset 09,Early Stage Diabetes Risk Prediction,C2,1.0,0.0053667825860512
+D013,Dataset 09,Early Stage Diabetes Risk Prediction,C3,0.5,-0.004715750242593624
+D013,Dataset 09,Early Stage Diabetes Risk Prediction,C3,0.75,-0.0011387869855627331
+D013,Dataset 09,Early Stage Diabetes Risk Prediction,C3,1.0,-0.00014620003585886663
+D013,Dataset 09,Early Stage Diabetes Risk Prediction,C4,0.5,-0.0020821177256323997
+D013,Dataset 09,Early Stage Diabetes Risk Prediction,C4,0.75,-0.0034317376507176332
+D013,Dataset 09,Early Stage Diabetes Risk Prediction,C4,1.0,0.0009103447727780998
+D013,Dataset 09,Early Stage Diabetes Risk Prediction,C5,0.5,0.029815802801970836
+D013,Dataset 09,Early Stage Diabetes Risk Prediction,C5,0.75,0.030358614432340197
+D013,Dataset 09,Early Stage Diabetes Risk Prediction,C5,1.0,0.019522358301532202
+D014,Dataset 10,Diabetic Retinopathy Debrecen,C2,0.5,-0.0057685949167439006
+D014,Dataset 10,Diabetic Retinopathy Debrecen,C2,0.75,0.012162438170991267
+D014,Dataset 10,Diabetic Retinopathy Debrecen,C2,1.0,0.0046306535186048
+D014,Dataset 10,Diabetic Retinopathy Debrecen,C3,0.5,0.0013666514353347333
+D014,Dataset 10,Diabetic Retinopathy Debrecen,C3,0.75,0.002664249887771633
+D014,Dataset 10,Diabetic Retinopathy Debrecen,C3,1.0,0.0025707115061644
+D014,Dataset 10,Diabetic Retinopathy Debrecen,C4,0.5,-0.005783071972102167
+D014,Dataset 10,Diabetic Retinopathy Debrecen,C4,0.75,0.006283302220254417
+D014,Dataset 10,Diabetic Retinopathy Debrecen,C4,1.0,0.002015908972436333
+D014,Dataset 10,Diabetic Retinopathy Debrecen,C5,0.5,-0.0005414846684929333
+D014,Dataset 10,Diabetic Retinopathy Debrecen,C5,0.75,0.02491709071346197
+D014,Dataset 10,Diabetic Retinopathy Debrecen,C5,1.0,0.0124731736904206
+D015,Dataset 11,Thoracic Surgery Data,C2,0.75,-0.004278163218044101
+D015,Dataset 11,Thoracic Surgery Data,C2,1.0,0.015017950757916168
+D015,Dataset 11,Thoracic Surgery Data,C3,0.75,-0.0096735555099711
+D015,Dataset 11,Thoracic Surgery Data,C3,1.0,0.004975985787583701
+D015,Dataset 11,Thoracic Surgery Data,C4,0.75,0.010775822705997066
+D015,Dataset 11,Thoracic Surgery Data,C4,1.0,-0.008427411573804834
+D015,Dataset 11,Thoracic Surgery Data,C5,0.75,0.20047157721319717
+D015,Dataset 11,Thoracic Surgery Data,C5,1.0,0.2603003006147823
+D016,Dataset 12,Haberman's Survival,C2,0.75,0.057867488523560495
+D016,Dataset 12,Haberman's Survival,C2,1.0,0.0171362458906451
+D016,Dataset 12,Haberman's Survival,C3,0.75,0.01716173986866
+D016,Dataset 12,Haberman's Survival,C3,1.0,-0.0040573482075274
+D016,Dataset 12,Haberman's Survival,C4,0.75,0.058913740753783195
+D016,Dataset 12,Haberman's Survival,C4,1.0,8.428364811866257e-06
+D016,Dataset 12,Haberman's Survival,C5,0.75,0.11869916584672147
+D016,Dataset 12,Haberman's Survival,C5,1.0,0.049839341418994036
+D019,Dataset 13,Myocardial Infarction Complications,C2,0.5,0.009990584120325066
+D019,Dataset 13,Myocardial Infarction Complications,C2,0.75,0.005321672475467322
+D019,Dataset 13,Myocardial Infarction Complications,C2,1.0,0.0007330422889021332
+D019,Dataset 13,Myocardial Infarction Complications,C3,0.5,-0.0019022017072726001
+D019,Dataset 13,Myocardial Infarction Complications,C3,0.75,0.006334401143552034
+D019,Dataset 13,Myocardial Infarction Complications,C3,1.0,-0.0005424324216372667
+D019,Dataset 13,Myocardial Infarction Complications,C4,0.5,-0.0009937238143015333
+D019,Dataset 13,Myocardial Infarction Complications,C4,0.75,-0.0030484640497048
+D019,Dataset 13,Myocardial Infarction Complications,C4,1.0,-0.009116922882986534
+D019,Dataset 13,Myocardial Infarction Complications,C5,0.5,0.09820618982635783
+D019,Dataset 13,Myocardial Infarction Complications,C5,0.75,0.11057687217207168
+D019,Dataset 13,Myocardial Infarction Complications,C5,1.0,0.09906018303838098
+D020,Dataset 14,Differentiated Thyroid Cancer Recurrence,C2,0.75,0.008291613532824533
+D020,Dataset 14,Differentiated Thyroid Cancer Recurrence,C2,1.0,0.0020465746552296997
+D020,Dataset 14,Differentiated Thyroid Cancer Recurrence,C3,0.75,0.002090054915703867
+D020,Dataset 14,Differentiated Thyroid Cancer Recurrence,C3,1.0,-0.0012788165010295333
+D020,Dataset 14,Differentiated Thyroid Cancer Recurrence,C4,0.75,0.00031140010672010024
+D020,Dataset 14,Differentiated Thyroid Cancer Recurrence,C4,1.0,0.0007150383660249333
+D020,Dataset 14,Differentiated Thyroid Cancer Recurrence,C5,0.75,0.021914192892659296
+D020,Dataset 14,Differentiated Thyroid Cancer Recurrence,C5,1.0,0.025621734578763034

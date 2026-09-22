@@ -1,0 +1,40 @@
+{
+  "dataset_id": "D013",
+  "sample_fraction": 0.5,
+  "chain": 0,
+  "condition": "C3",
+  "model": "random_forest",
+  "repeat": 0,
+  "fold": "0",
+  "status": "PLANNED_LOCKED",
+  "phase": "sample_size",
+  "run_id": "D013__random_forest__sample_size__0p5__0__C3__0__0__8b6f3df46425d522",
+  "registry_authorization_status": "BLOCKED",
+  "runtime_authorization_scope": "FULL_LOCKED_SEQUENTIAL_EXPERIMENT",
+  "pilot_only": false,
+  "rows_in_analysis_frame": 245,
+  "train_rows": 160,
+  "evaluation_rows": 85,
+  "runtime_seconds": 40.36159603899978,
+  "peak_rss_bytes": 239509504,
+  "warning_count": 1,
+  "warning_categories": [
+    "DeprecationWarning"
+  ],
+  "AUROC": 0.9420289855072463,
+  "AUPRC": 0.9509578487766606,
+  "balanced_accuracy": 0.7748049052396879,
+  "F1": 0.75,
+  "Brier": 0.09097605982469643,
+  "calibration_intercept": -0.07163942707543848,
+  "calibration_slope": 1.507203934227487,
+  "threshold": 0.753125,
+  "best_params": {
+    "model__n_estimators": 800,
+    "model__min_samples_leaf": 1,
+    "model__max_features": "sqrt",
+    "model__max_depth": 10,
+    "feature_selection__percentile": 100
+  },
+  "inner_cv_AUROC": 0.9376486461506705
+}

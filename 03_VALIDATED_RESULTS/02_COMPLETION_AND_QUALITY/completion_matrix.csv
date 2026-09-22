@@ -1,0 +1,43 @@
+display_index,dataset_name,model,expected_atomic_units,validated_atomic_units,complete
+Dataset 01,Breast Cancer Wisconsin Diagnostic,gradient_boosted_trees,85,85,True
+Dataset 01,Breast Cancer Wisconsin Diagnostic,logistic_regression,85,85,True
+Dataset 01,Breast Cancer Wisconsin Diagnostic,random_forest,85,85,True
+Dataset 02,Chronic Kidney Disease,gradient_boosted_trees,85,85,True
+Dataset 02,Chronic Kidney Disease,logistic_regression,85,85,True
+Dataset 02,Chronic Kidney Disease,random_forest,85,85,True
+Dataset 03,ILPD Indian Liver Patient,gradient_boosted_trees,85,85,True
+Dataset 03,ILPD Indian Liver Patient,logistic_regression,85,85,True
+Dataset 03,ILPD Indian Liver Patient,random_forest,85,85,True
+Dataset 04,Heart Disease Cleveland,gradient_boosted_trees,59,59,True
+Dataset 04,Heart Disease Cleveland,logistic_regression,59,59,True
+Dataset 04,Heart Disease Cleveland,random_forest,59,59,True
+Dataset 05,SPECT Heart,gradient_boosted_trees,59,59,True
+Dataset 05,SPECT Heart,logistic_regression,59,59,True
+Dataset 05,SPECT Heart,random_forest,59,59,True
+Dataset 06,Cervical Cancer Risk Factors,gradient_boosted_trees,33,33,True
+Dataset 06,Cervical Cancer Risk Factors,logistic_regression,33,33,True
+Dataset 06,Cervical Cancer Risk Factors,random_forest,33,33,True
+Dataset 07,HCV Data,gradient_boosted_trees,59,59,True
+Dataset 07,HCV Data,logistic_regression,59,59,True
+Dataset 07,HCV Data,random_forest,59,59,True
+Dataset 08,Mammographic Mass,gradient_boosted_trees,85,85,True
+Dataset 08,Mammographic Mass,logistic_regression,85,85,True
+Dataset 08,Mammographic Mass,random_forest,85,85,True
+Dataset 09,Early Stage Diabetes Risk Prediction,gradient_boosted_trees,85,85,True
+Dataset 09,Early Stage Diabetes Risk Prediction,logistic_regression,85,85,True
+Dataset 09,Early Stage Diabetes Risk Prediction,random_forest,85,85,True
+Dataset 10,Diabetic Retinopathy Debrecen,gradient_boosted_trees,85,85,True
+Dataset 10,Diabetic Retinopathy Debrecen,logistic_regression,85,85,True
+Dataset 10,Diabetic Retinopathy Debrecen,random_forest,85,85,True
+Dataset 11,Thoracic Surgery Data,gradient_boosted_trees,59,59,True
+Dataset 11,Thoracic Surgery Data,logistic_regression,59,59,True
+Dataset 11,Thoracic Surgery Data,random_forest,59,59,True
+Dataset 12,Haberman's Survival,gradient_boosted_trees,59,59,True
+Dataset 12,Haberman's Survival,logistic_regression,59,59,True
+Dataset 12,Haberman's Survival,random_forest,59,59,True
+Dataset 13,Myocardial Infarction Complications,gradient_boosted_trees,85,85,True
+Dataset 13,Myocardial Infarction Complications,logistic_regression,85,85,True
+Dataset 13,Myocardial Infarction Complications,random_forest,85,85,True
+Dataset 14,Differentiated Thyroid Cancer Recurrence,gradient_boosted_trees,59,59,True
+Dataset 14,Differentiated Thyroid Cancer Recurrence,logistic_regression,59,59,True
+Dataset 14,Differentiated Thyroid Cancer Recurrence,random_forest,59,59,True

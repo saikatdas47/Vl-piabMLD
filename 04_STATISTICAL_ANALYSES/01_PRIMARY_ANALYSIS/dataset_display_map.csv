@@ -1,0 +1,15 @@
+display_index,dataset_name
+Dataset 01,Breast Cancer Wisconsin Diagnostic
+Dataset 02,Chronic Kidney Disease
+Dataset 03,ILPD Indian Liver Patient
+Dataset 04,Heart Disease Cleveland
+Dataset 05,SPECT Heart
+Dataset 06,Cervical Cancer Risk Factors
+Dataset 07,HCV Data
+Dataset 08,Mammographic Mass
+Dataset 09,Early Stage Diabetes Risk Prediction
+Dataset 10,Diabetic Retinopathy Debrecen
+Dataset 11,Thoracic Surgery Data
+Dataset 12,Haberman's Survival
+Dataset 13,Myocardial Infarction Complications
+Dataset 14,Differentiated Thyroid Cancer Recurrence

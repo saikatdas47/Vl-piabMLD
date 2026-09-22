@@ -1,0 +1,15 @@
+dataset_id,dataset_name,analysis_rows,analysis_predictors,minority_count,missing_predictor_cells
+D001,Breast Cancer Wisconsin Diagnostic,569,30,212,0
+D002,Chronic Kidney Disease,400,24,150,1012
+D003,ILPD Indian Liver Patient,583,10,167,4
+D005,Heart Disease Cleveland,303,13,139,6
+D006,SPECT Heart,267,22,55,0
+D009,Cervical Cancer Risk Factors,858,28,55,3622
+D010,HCV Data,608,12,75,31
+D011,Mammographic Mass,961,4,445,160
+D013,Early Stage Diabetes Risk Prediction,520,16,200,0
+D014,Diabetic Retinopathy Debrecen,1151,17,540,0
+D015,Thoracic Surgery Data,470,16,70,0
+D016,Haberman's Survival,306,3,81,0
+D019,Myocardial Infarction Complications,1700,91,271,13098
+D020,Differentiated Thyroid Cancer Recurrence,383,15,108,0

@@ -1,0 +1,38 @@
+{
+  "dataset_id": "D014",
+  "sample_fraction": 0.75,
+  "chain": 0,
+  "condition": "C3",
+  "model": "logistic_regression",
+  "repeat": 0,
+  "fold": "2",
+  "status": "PLANNED_LOCKED",
+  "phase": "sample_size",
+  "run_id": "D014__logistic_regression__sample_size__0p75__0__C3__0__2__6d456ac24dfc0900",
+  "registry_authorization_status": "BLOCKED",
+  "runtime_authorization_scope": "FULL_LOCKED_SEQUENTIAL_EXPERIMENT",
+  "pilot_only": false,
+  "rows_in_analysis_frame": 865,
+  "train_rows": 577,
+  "evaluation_rows": 288,
+  "runtime_seconds": 3.121076534000167,
+  "peak_rss_bytes": 221782016,
+  "warning_count": 1,
+  "warning_categories": [
+    "DeprecationWarning"
+  ],
+  "AUROC": 0.8314334222653408,
+  "AUPRC": 0.8704394418037273,
+  "balanced_accuracy": 0.7436332767402376,
+  "F1": 0.7246376811594203,
+  "Brier": 0.17014094953307093,
+  "calibration_intercept": 0.23845014563965725,
+  "calibration_slope": 1.1894006951946834,
+  "threshold": 0.49476406879870505,
+  "best_params": {
+    "model__penalty": "l1",
+    "model__C": 10.0,
+    "feature_selection__percentile": 100
+  },
+  "inner_cv_AUROC": 0.8024636813252681
+}

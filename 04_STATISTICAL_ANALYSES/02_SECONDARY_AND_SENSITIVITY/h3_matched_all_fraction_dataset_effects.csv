@@ -1,0 +1,85 @@
+dataset_id,display_index,dataset_name,condition,sample_fraction,delta_AUROC
+D001,Dataset 01,Breast Cancer Wisconsin Diagnostic,C2,0.5,0.0051099376856188474
+D001,Dataset 01,Breast Cancer Wisconsin Diagnostic,C2,0.75,-0.0008340000907383332
+D001,Dataset 01,Breast Cancer Wisconsin Diagnostic,C2,1.0,-0.0009361374225287643
+D001,Dataset 01,Breast Cancer Wisconsin Diagnostic,C3,0.5,0.0027015961685235997
+D001,Dataset 01,Breast Cancer Wisconsin Diagnostic,C3,0.75,-0.0009787354246117333
+D001,Dataset 01,Breast Cancer Wisconsin Diagnostic,C3,1.0,0.0003814842800755667
+D001,Dataset 01,Breast Cancer Wisconsin Diagnostic,C4,0.5,-0.000878760540862133
+D001,Dataset 01,Breast Cancer Wisconsin Diagnostic,C4,0.75,-0.004090211710367
+D001,Dataset 01,Breast Cancer Wisconsin Diagnostic,C4,1.0,-0.0037660579111795
+D001,Dataset 01,Breast Cancer Wisconsin Diagnostic,C5,0.5,0.012726363976236665
+D001,Dataset 01,Breast Cancer Wisconsin Diagnostic,C5,0.75,0.0037976607696778666
+D001,Dataset 01,Breast Cancer Wisconsin Diagnostic,C5,1.0,0.0039037736156671663
+D002,Dataset 02,Chronic Kidney Disease,C2,0.5,-0.0004214712826076334
+D002,Dataset 02,Chronic Kidney Disease,C2,0.75,-0.0001999992723459
+D002,Dataset 02,Chronic Kidney Disease,C2,1.0,0.00015328492738766458
+D002,Dataset 02,Chronic Kidney Disease,C3,0.5,-0.0006393227689165
+D002,Dataset 02,Chronic Kidney Disease,C3,0.75,0.0004339385723523333
+D002,Dataset 02,Chronic Kidney Disease,C3,1.0,-0.00010774534329369507
+D002,Dataset 02,Chronic Kidney Disease,C4,0.5,-0.00013517713929833334
+D002,Dataset 02,Chronic Kidney Disease,C4,0.75,-0.0004884193763868333
+D002,Dataset 02,Chronic Kidney Disease,C4,1.0,-0.0003814126093850385
+D002,Dataset 02,Chronic Kidney Disease,C5,0.5,0.00026409168563209997
+D002,Dataset 02,Chronic Kidney Disease,C5,0.75,0.00017801769108846669
+D002,Dataset 02,Chronic Kidney Disease,C5,1.0,0.00029087494941363733
+D003,Dataset 03,ILPD Indian Liver Patient,C2,0.5,0.024665247683559866
+D003,Dataset 03,ILPD Indian Liver Patient,C2,0.75,0.0045166973526893995
+D003,Dataset 03,ILPD Indian Liver Patient,C2,1.0,0.0038836649042464995
+D003,Dataset 03,ILPD Indian Liver Patient,C3,0.5,0.0178771894180621
+D003,Dataset 03,ILPD Indian Liver Patient,C3,0.75,-0.0111898268884575
+D003,Dataset 03,ILPD Indian Liver Patient,C3,1.0,0.004602011139221567
+D003,Dataset 03,ILPD Indian Liver Patient,C4,0.5,0.0340704329762481
+D003,Dataset 03,ILPD Indian Liver Patient,C4,0.75,0.003879953183846633
+D003,Dataset 03,ILPD Indian Liver Patient,C4,1.0,0.0053960861986407
+D003,Dataset 03,ILPD Indian Liver Patient,C5,0.5,0.09416283635598151
+D003,Dataset 03,ILPD Indian Liver Patient,C5,0.75,0.07991683508489503
+D003,Dataset 03,ILPD Indian Liver Patient,C5,1.0,0.0973907592731393
+D011,Dataset 08,Mammographic Mass,C2,0.5,0.00222884637168
+D011,Dataset 08,Mammographic Mass,C2,0.75,-0.004013256133674466
+D011,Dataset 08,Mammographic Mass,C2,1.0,-0.004753311346286133
+D011,Dataset 08,Mammographic Mass,C3,0.5,8.467858662380009e-05
+D011,Dataset 08,Mammographic Mass,C3,0.75,-0.0072892786630852
+D011,Dataset 08,Mammographic Mass,C3,1.0,-0.0031938161982232997
+D011,Dataset 08,Mammographic Mass,C4,0.5,-0.005487733536858934
+D011,Dataset 08,Mammographic Mass,C4,0.75,-0.01934900486397233
+D011,Dataset 08,Mammographic Mass,C4,1.0,-0.027964904946397296
+D011,Dataset 08,Mammographic Mass,C5,0.5,0.0065183462024444
+D011,Dataset 08,Mammographic Mass,C5,0.75,-0.004788324327513833
+D011,Dataset 08,Mammographic Mass,C5,1.0,-0.0027188924062014337
+D013,Dataset 09,Early Stage Diabetes Risk Prediction,C2,0.5,-0.004667814207368933
+D013,Dataset 09,Early Stage Diabetes Risk Prediction,C2,0.75,0.008474788036513666
+D013,Dataset 09,Early Stage Diabetes Risk Prediction,C2,1.0,0.0053667825860512
+D013,Dataset 09,Early Stage Diabetes Risk Prediction,C3,0.5,-0.004715750242593624
+D013,Dataset 09,Early Stage Diabetes Risk Prediction,C3,0.75,-0.0011387869855627331
+D013,Dataset 09,Early Stage Diabetes Risk Prediction,C3,1.0,-0.00014620003585886663
+D013,Dataset 09,Early Stage Diabetes Risk Prediction,C4,0.5,-0.0020821177256323997
+D013,Dataset 09,Early Stage Diabetes Risk Prediction,C4,0.75,-0.0034317376507176332
+D013,Dataset 09,Early Stage Diabetes Risk Prediction,C4,1.0,0.0009103447727780998
+D013,Dataset 09,Early Stage Diabetes Risk Prediction,C5,0.5,0.029815802801970836
+D013,Dataset 09,Early Stage Diabetes Risk Prediction,C5,0.75,0.030358614432340197
+D013,Dataset 09,Early Stage Diabetes Risk Prediction,C5,1.0,0.019522358301532202
+D014,Dataset 10,Diabetic Retinopathy Debrecen,C2,0.5,-0.0057685949167439006
+D014,Dataset 10,Diabetic Retinopathy Debrecen,C2,0.75,0.012162438170991267
+D014,Dataset 10,Diabetic Retinopathy Debrecen,C2,1.0,0.0046306535186048
+D014,Dataset 10,Diabetic Retinopathy Debrecen,C3,0.5,0.0013666514353347333
+D014,Dataset 10,Diabetic Retinopathy Debrecen,C3,0.75,0.002664249887771633
+D014,Dataset 10,Diabetic Retinopathy Debrecen,C3,1.0,0.0025707115061644
+D014,Dataset 10,Diabetic Retinopathy Debrecen,C4,0.5,-0.005783071972102167
+D014,Dataset 10,Diabetic Retinopathy Debrecen,C4,0.75,0.006283302220254417
+D014,Dataset 10,Diabetic Retinopathy Debrecen,C4,1.0,0.002015908972436333
+D014,Dataset 10,Diabetic Retinopathy Debrecen,C5,0.5,-0.0005414846684929333
+D014,Dataset 10,Diabetic Retinopathy Debrecen,C5,0.75,0.02491709071346197
+D014,Dataset 10,Diabetic Retinopathy Debrecen,C5,1.0,0.0124731736904206
+D019,Dataset 13,Myocardial Infarction Complications,C2,0.5,0.009990584120325066
+D019,Dataset 13,Myocardial Infarction Complications,C2,0.75,0.005321672475467322
+D019,Dataset 13,Myocardial Infarction Complications,C2,1.0,0.0007330422889021332
+D019,Dataset 13,Myocardial Infarction Complications,C3,0.5,-0.0019022017072726001
+D019,Dataset 13,Myocardial Infarction Complications,C3,0.75,0.006334401143552034
+D019,Dataset 13,Myocardial Infarction Complications,C3,1.0,-0.0005424324216372667
+D019,Dataset 13,Myocardial Infarction Complications,C4,0.5,-0.0009937238143015333
+D019,Dataset 13,Myocardial Infarction Complications,C4,0.75,-0.0030484640497048
+D019,Dataset 13,Myocardial Infarction Complications,C4,1.0,-0.009116922882986534
+D019,Dataset 13,Myocardial Infarction Complications,C5,0.5,0.09820618982635783
+D019,Dataset 13,Myocardial Infarction Complications,C5,0.75,0.11057687217207168
+D019,Dataset 13,Myocardial Infarction Complications,C5,1.0,0.09906018303838098

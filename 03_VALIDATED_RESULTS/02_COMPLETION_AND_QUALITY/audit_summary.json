@@ -1,0 +1,13 @@
+{
+  "audit_created_utc": "2026-09-21T17:19:33.967818+00:00",
+  "analysis_set_definition": "All datasets listed in tables/dataset_display_map.csv with fully validated registered atomic results.",
+  "dataset_count": 14,
+  "model_family_count": 3,
+  "expected_atomic_units": 2946,
+  "validated_atomic_units": 2946,
+  "canonical_identity_duplicates": 0,
+  "noncanonical_copy_files_ignored": 32,
+  "problem_count": 0,
+  "metric_quality_warning_count": 4,
+  "status": "PASS"
+}

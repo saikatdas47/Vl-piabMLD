@@ -1,0 +1,301 @@
+Linear mixed-effects model fit by maximum likelihood
+  Data: d 
+        AIC       BIC   logLik
+  -1626.754 -1506.416 843.3771
+
+Random effects:
+ Formula: ~1 | dataset_id
+        (Intercept)  Residual
+StdDev:  0.01387932 0.0296026
+
+Fixed effects:  list(formula) 
+                                                Value   Std.Error  DF
+(Intercept)                                0.00797249 0.006558576 369
+conditionC3                               -0.00505372 0.007439499 369
+conditionC4                               -0.00080088 0.007439499 369
+conditionC5                                0.01722183 0.007439499 369
+z_log_sample_size                         -0.00762550 0.005098501 369
+z_log_feature_to_sample_ratio             -0.00216023 0.005797444 369
+z_minority_prevalence                     -0.00463930 0.005107701  11
+z_missingness_rate                        -0.00089023 0.005270182  11
+modelgradient_boosted_trees                0.00307105 0.007439499 369
+modelrandom_forest                        -0.00357557 0.007439499 369
+conditionC3:z_log_sample_size              0.00554870 0.005111994 369
+conditionC4:z_log_sample_size             -0.00203792 0.005111994 369
+conditionC5:z_log_sample_size              0.00586013 0.005111994 369
+conditionC3:z_log_feature_to_sample_ratio  0.00211317 0.005056988 369
+conditionC4:z_log_feature_to_sample_ratio  0.00214764 0.005056988 369
+conditionC5:z_log_feature_to_sample_ratio -0.00759497 0.005056988 369
+conditionC3:z_minority_prevalence          0.00510449 0.004584025 369
+conditionC4:z_minority_prevalence          0.00150789 0.004584025 369
+conditionC5:z_minority_prevalence         -0.04697385 0.004584025 369
+conditionC3:z_missingness_rate             0.00253829 0.004848376 369
+conditionC4:z_missingness_rate             0.00338627 0.004848376 369
+conditionC5:z_missingness_rate             0.00864278 0.004848376 369
+conditionC3:modelgradient_boosted_trees   -0.00590132 0.010521040 369
+conditionC4:modelgradient_boosted_trees   -0.00871639 0.010521040 369
+conditionC5:modelgradient_boosted_trees    0.04712647 0.010521040 369
+conditionC3:modelrandom_forest            -0.00192343 0.010521040 369
+conditionC4:modelrandom_forest            -0.00592369 0.010521040 369
+conditionC5:modelrandom_forest             0.04264371 0.010521040 369
+                                             t-value p-value
+(Intercept)                                 1.215583  0.2249
+conditionC3                                -0.679309  0.4974
+conditionC4                                -0.107652  0.9143
+conditionC5                                 2.314918  0.0212
+z_log_sample_size                          -1.495635  0.1356
+z_log_feature_to_sample_ratio              -0.372617  0.7096
+z_minority_prevalence                      -0.908295  0.3832
+z_missingness_rate                         -0.168918  0.8689
+modelgradient_boosted_trees                 0.412803  0.6800
+modelrandom_forest                         -0.480619  0.6311
+conditionC3:z_log_sample_size               1.085428  0.2784
+conditionC4:z_log_sample_size              -0.398654  0.6904
+conditionC5:z_log_sample_size               1.146350  0.2524
+conditionC3:z_log_feature_to_sample_ratio   0.417871  0.6763
+conditionC4:z_log_feature_to_sample_ratio   0.424689  0.6713
+conditionC5:z_log_feature_to_sample_ratio  -1.501875  0.1340
+conditionC3:z_minority_prevalence           1.113539  0.2662
+conditionC4:z_minority_prevalence           0.328945  0.7424
+conditionC5:z_minority_prevalence         -10.247292  0.0000
+conditionC3:z_missingness_rate              0.523535  0.6009
+conditionC4:z_missingness_rate              0.698435  0.4853
+conditionC5:z_missingness_rate              1.782613  0.0755
+conditionC3:modelgradient_boosted_trees    -0.560906  0.5752
+conditionC4:modelgradient_boosted_trees    -0.828472  0.4079
+conditionC5:modelgradient_boosted_trees     4.479259  0.0000
+conditionC3:modelrandom_forest             -0.182818  0.8550
+conditionC4:modelrandom_forest             -0.563032  0.5738
+conditionC5:modelrandom_forest              4.053184  0.0001
+ Correlation: 
+                                          (Intr) cndtC3 cndtC4 cndtC5 z_lg__
+conditionC3                               -0.567                            
+conditionC4                               -0.567  0.500                     
+conditionC5                               -0.567  0.500  0.500              
+z_log_sample_size                          0.036  0.000  0.000  0.000       
+z_log_feature_to_sample_ratio              0.034  0.000  0.000  0.000  0.618
+z_minority_prevalence                      0.073  0.000  0.000  0.000  0.171
+z_missingness_rate                        -0.011  0.000  0.000  0.000 -0.393
+modelgradient_boosted_trees               -0.567  0.500  0.500  0.500  0.000
+modelrandom_forest                        -0.567  0.500  0.500  0.500  0.000
+conditionC3:z_log_sample_size              0.000  0.000  0.000  0.000 -0.501
+conditionC4:z_log_sample_size              0.000  0.000  0.000  0.000 -0.501
+conditionC5:z_log_sample_size              0.000  0.000  0.000  0.000 -0.501
+conditionC3:z_log_feature_to_sample_ratio  0.000  0.000  0.000  0.000 -0.229
+conditionC4:z_log_feature_to_sample_ratio  0.000  0.000  0.000  0.000 -0.229
+conditionC5:z_log_feature_to_sample_ratio  0.000  0.000  0.000  0.000 -0.229
+conditionC3:z_minority_prevalence          0.000  0.000  0.000  0.000 -0.083
+conditionC4:z_minority_prevalence          0.000  0.000  0.000  0.000 -0.083
+conditionC5:z_minority_prevalence          0.000  0.000  0.000  0.000 -0.083
+conditionC3:z_missingness_rate             0.000  0.000  0.000  0.000  0.200
+conditionC4:z_missingness_rate             0.000  0.000  0.000  0.000  0.200
+conditionC5:z_missingness_rate             0.000  0.000  0.000  0.000  0.200
+conditionC3:modelgradient_boosted_trees    0.401 -0.707 -0.354 -0.354  0.000
+conditionC4:modelgradient_boosted_trees    0.401 -0.354 -0.707 -0.354  0.000
+conditionC5:modelgradient_boosted_trees    0.401 -0.354 -0.354 -0.707  0.000
+conditionC3:modelrandom_forest             0.401 -0.707 -0.354 -0.354  0.000
+conditionC4:modelrandom_forest             0.401 -0.354 -0.707 -0.354  0.000
+conditionC5:modelrandom_forest             0.401 -0.354 -0.354 -0.707  0.000
+                                          z_____ z_mnr_ z_mss_ mdlg__ mdlrn_
+conditionC3                                                                 
+conditionC4                                                                 
+conditionC5                                                                 
+z_log_sample_size                                                           
+z_log_feature_to_sample_ratio                                               
+z_minority_prevalence                      0.233                            
+z_missingness_rate                        -0.313  0.164                     
+modelgradient_boosted_trees                0.000  0.000  0.000              
+modelrandom_forest                         0.000  0.000  0.000  0.500       
+conditionC3:z_log_sample_size             -0.199 -0.074  0.183  0.000  0.000
+conditionC4:z_log_sample_size             -0.199 -0.074  0.183  0.000  0.000
+conditionC5:z_log_sample_size             -0.199 -0.074  0.183  0.000  0.000
+conditionC3:z_log_feature_to_sample_ratio -0.436 -0.124  0.138  0.000  0.000
+conditionC4:z_log_feature_to_sample_ratio -0.436 -0.124  0.138  0.000  0.000
+conditionC5:z_log_feature_to_sample_ratio -0.436 -0.124  0.138  0.000  0.000
+conditionC3:z_minority_prevalence         -0.121 -0.449 -0.041  0.000  0.000
+conditionC4:z_minority_prevalence         -0.121 -0.449 -0.041  0.000  0.000
+conditionC5:z_minority_prevalence         -0.121 -0.449 -0.041  0.000  0.000
+conditionC3:z_missingness_rate             0.130 -0.040 -0.460  0.000  0.000
+conditionC4:z_missingness_rate             0.130 -0.040 -0.460  0.000  0.000
+conditionC5:z_missingness_rate             0.130 -0.040 -0.460  0.000  0.000
+conditionC3:modelgradient_boosted_trees    0.000  0.000  0.000 -0.707 -0.354
+conditionC4:modelgradient_boosted_trees    0.000  0.000  0.000 -0.707 -0.354
+conditionC5:modelgradient_boosted_trees    0.000  0.000  0.000 -0.707 -0.354
+conditionC3:modelrandom_forest             0.000  0.000  0.000 -0.354 -0.707
+conditionC4:modelrandom_forest             0.000  0.000  0.000 -0.354 -0.707
+conditionC5:modelrandom_forest             0.000  0.000  0.000 -0.354 -0.707
+                                          cnC3:___ cnC4:___ cnC5:___ cC3:____
+conditionC3                                                                  
+conditionC4                                                                  
+conditionC5                                                                  
+z_log_sample_size                                                            
+z_log_feature_to_sample_ratio                                                
+z_minority_prevalence                                                        
+z_missingness_rate                                                           
+modelgradient_boosted_trees                                                  
+modelrandom_forest                                                           
+conditionC3:z_log_sample_size                                                
+conditionC4:z_log_sample_size              0.500                             
+conditionC5:z_log_sample_size              0.500    0.500                    
+conditionC3:z_log_feature_to_sample_ratio  0.456    0.228    0.228           
+conditionC4:z_log_feature_to_sample_ratio  0.228    0.456    0.228    0.500  
+conditionC5:z_log_feature_to_sample_ratio  0.228    0.228    0.456    0.500  
+conditionC3:z_minority_prevalence          0.166    0.083    0.083    0.277  
+conditionC4:z_minority_prevalence          0.083    0.166    0.083    0.138  
+conditionC5:z_minority_prevalence          0.083    0.083    0.166    0.138  
+conditionC3:z_missingness_rate            -0.399   -0.199   -0.199   -0.299  
+conditionC4:z_missingness_rate            -0.199   -0.399   -0.199   -0.150  
+conditionC5:z_missingness_rate            -0.199   -0.199   -0.399   -0.150  
+conditionC3:modelgradient_boosted_trees    0.000    0.000    0.000    0.000  
+conditionC4:modelgradient_boosted_trees    0.000    0.000    0.000    0.000  
+conditionC5:modelgradient_boosted_trees    0.000    0.000    0.000    0.000  
+conditionC3:modelrandom_forest             0.000    0.000    0.000    0.000  
+conditionC4:modelrandom_forest             0.000    0.000    0.000    0.000  
+conditionC5:modelrandom_forest             0.000    0.000    0.000    0.000  
+                                          cC4:____ cC5:____ cndtnC3:z_mn_
+conditionC3                                                              
+conditionC4                                                              
+conditionC5                                                              
+z_log_sample_size                                                        
+z_log_feature_to_sample_ratio                                            
+z_minority_prevalence                                                    
+z_missingness_rate                                                       
+modelgradient_boosted_trees                                              
+modelrandom_forest                                                       
+conditionC3:z_log_sample_size                                            
+conditionC4:z_log_sample_size                                            
+conditionC5:z_log_sample_size                                            
+conditionC3:z_log_feature_to_sample_ratio                                
+conditionC4:z_log_feature_to_sample_ratio                                
+conditionC5:z_log_feature_to_sample_ratio  0.500                         
+conditionC3:z_minority_prevalence          0.138    0.138                
+conditionC4:z_minority_prevalence          0.277    0.138    0.500       
+conditionC5:z_minority_prevalence          0.138    0.277    0.500       
+conditionC3:z_missingness_rate            -0.150   -0.150    0.089       
+conditionC4:z_missingness_rate            -0.299   -0.150    0.044       
+conditionC5:z_missingness_rate            -0.150   -0.299    0.044       
+conditionC3:modelgradient_boosted_trees    0.000    0.000    0.000       
+conditionC4:modelgradient_boosted_trees    0.000    0.000    0.000       
+conditionC5:modelgradient_boosted_trees    0.000    0.000    0.000       
+conditionC3:modelrandom_forest             0.000    0.000    0.000       
+conditionC4:modelrandom_forest             0.000    0.000    0.000       
+conditionC5:modelrandom_forest             0.000    0.000    0.000       
+                                          cndtnC4:z_mn_ cndtnC5:z_mn_
+conditionC3                                                          
+conditionC4                                                          
+conditionC5                                                          
+z_log_sample_size                                                    
+z_log_feature_to_sample_ratio                                        
+z_minority_prevalence                                                
+z_missingness_rate                                                   
+modelgradient_boosted_trees                                          
+modelrandom_forest                                                   
+conditionC3:z_log_sample_size                                        
+conditionC4:z_log_sample_size                                        
+conditionC5:z_log_sample_size                                        
+conditionC3:z_log_feature_to_sample_ratio                            
+conditionC4:z_log_feature_to_sample_ratio                            
+conditionC5:z_log_feature_to_sample_ratio                            
+conditionC3:z_minority_prevalence                                    
+conditionC4:z_minority_prevalence                                    
+conditionC5:z_minority_prevalence          0.500                     
+conditionC3:z_missingness_rate             0.044         0.044       
+conditionC4:z_missingness_rate             0.089         0.044       
+conditionC5:z_missingness_rate             0.044         0.089       
+conditionC3:modelgradient_boosted_trees    0.000         0.000       
+conditionC4:modelgradient_boosted_trees    0.000         0.000       
+conditionC5:modelgradient_boosted_trees    0.000         0.000       
+conditionC3:modelrandom_forest             0.000         0.000       
+conditionC4:modelrandom_forest             0.000         0.000       
+conditionC5:modelrandom_forest             0.000         0.000       
+                                          cndtnC3:z_ms_ cndtnC4:z_ms_
+conditionC3                                                          
+conditionC4                                                          
+conditionC5                                                          
+z_log_sample_size                                                    
+z_log_feature_to_sample_ratio                                        
+z_minority_prevalence                                                
+z_missingness_rate                                                   
+modelgradient_boosted_trees                                          
+modelrandom_forest                                                   
+conditionC3:z_log_sample_size                                        
+conditionC4:z_log_sample_size                                        
+conditionC5:z_log_sample_size                                        
+conditionC3:z_log_feature_to_sample_ratio                            
+conditionC4:z_log_feature_to_sample_ratio                            
+conditionC5:z_log_feature_to_sample_ratio                            
+conditionC3:z_minority_prevalence                                    
+conditionC4:z_minority_prevalence                                    
+conditionC5:z_minority_prevalence                                    
+conditionC3:z_missingness_rate                                       
+conditionC4:z_missingness_rate             0.500                     
+conditionC5:z_missingness_rate             0.500         0.500       
+conditionC3:modelgradient_boosted_trees    0.000         0.000       
+conditionC4:modelgradient_boosted_trees    0.000         0.000       
+conditionC5:modelgradient_boosted_trees    0.000         0.000       
+conditionC3:modelrandom_forest             0.000         0.000       
+conditionC4:modelrandom_forest             0.000         0.000       
+conditionC5:modelrandom_forest             0.000         0.000       
+                                          cndtnC5:z_ms_ cndtnC3:m__ cndtnC4:m__
+conditionC3                                                                    
+conditionC4                                                                    
+conditionC5                                                                    
+z_log_sample_size                                                              
+z_log_feature_to_sample_ratio                                                  
+z_minority_prevalence                                                          
+z_missingness_rate                                                             
+modelgradient_boosted_trees                                                    
+modelrandom_forest                                                             
+conditionC3:z_log_sample_size                                                  
+conditionC4:z_log_sample_size                                                  
+conditionC5:z_log_sample_size                                                  
+conditionC3:z_log_feature_to_sample_ratio                                      
+conditionC4:z_log_feature_to_sample_ratio                                      
+conditionC5:z_log_feature_to_sample_ratio                                      
+conditionC3:z_minority_prevalence                                              
+conditionC4:z_minority_prevalence                                              
+conditionC5:z_minority_prevalence                                              
+conditionC3:z_missingness_rate                                                 
+conditionC4:z_missingness_rate                                                 
+conditionC5:z_missingness_rate                                                 
+conditionC3:modelgradient_boosted_trees    0.000                               
+conditionC4:modelgradient_boosted_trees    0.000         0.500                 
+conditionC5:modelgradient_boosted_trees    0.000         0.500       0.500     
+conditionC3:modelrandom_forest             0.000         0.500       0.250     
+conditionC4:modelrandom_forest             0.000         0.250       0.500     
+conditionC5:modelrandom_forest             0.000         0.250       0.250     
+                                          cndtnC5:m__ cnC3:_ cnC4:_
+conditionC3                                                        
+conditionC4                                                        
+conditionC5                                                        
+z_log_sample_size                                                  
+z_log_feature_to_sample_ratio                                      
+z_minority_prevalence                                              
+z_missingness_rate                                                 
+modelgradient_boosted_trees                                        
+modelrandom_forest                                                 
+conditionC3:z_log_sample_size                                      
+conditionC4:z_log_sample_size                                      
+conditionC5:z_log_sample_size                                      
+conditionC3:z_log_feature_to_sample_ratio                          
+conditionC4:z_log_feature_to_sample_ratio                          
+conditionC5:z_log_feature_to_sample_ratio                          
+conditionC3:z_minority_prevalence                                  
+conditionC4:z_minority_prevalence                                  
+conditionC5:z_minority_prevalence                                  
+conditionC3:z_missingness_rate                                     
+conditionC4:z_missingness_rate                                     
+conditionC5:z_missingness_rate                                     
+conditionC3:modelgradient_boosted_trees                            
+conditionC4:modelgradient_boosted_trees                            
+conditionC5:modelgradient_boosted_trees                            
+conditionC3:modelrandom_forest             0.250                   
+conditionC4:modelrandom_forest             0.250       0.500       
+conditionC5:modelrandom_forest             0.500       0.500  0.500
+
+Standardized Within-Group Residuals:
+        Min          Q1         Med          Q3         Max 
+-3.49445033 -0.35698025  0.02455842  0.30989227  6.99116419 
+
+Number of Observations: 408
+Number of Groups: 14 
