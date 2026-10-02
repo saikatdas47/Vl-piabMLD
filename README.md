@@ -42,7 +42,7 @@ Primary contrasts, model-family analyses, sample-size analyses, moderator analys
 
 ### `05_FINAL_FIGURES/`
 
-Five main-text figures and three supplementary figures at 400 DPI. These are the final reported visual outputs. Figure-generation code is intentionally excluded from the public release.
+Six main-text figures and five supplementary figures match the current manuscript and supplement numbering. The PNG files preserve the supplied pixels and resolution metadata. The figure map records the role of each image. Figure-generation code is intentionally excluded from the public release.
 
 ### `06_REPRODUCIBILITY_RECORDS/`
 

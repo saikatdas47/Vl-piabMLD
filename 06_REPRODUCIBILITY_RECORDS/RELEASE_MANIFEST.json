@@ -1,81 +1,123 @@
 {
-  "release_status": "PASS",
-  "public_file_count_excluding_release_records": 11860,
+  "release_status": "FIGURE_SYNC_VERIFIED",
+  "verification_scope": "Figure synchronization and current-file hash inventory only",
+  "public_file_count_excluding_release_records": 11864,
   "included_dataset_count": 14,
   "validated_atomic_result_units": 2946,
   "atomic_summary_files": 2946,
-  "final_figure_count": 8,
-  "private_pattern_flags": 0,
-  "forbidden_builder_file_flags": 0,
-  "figure_generation_code_flags": 0,
-  "python_syntax_errors": 0,
-  "json_parse_errors": 0,
-  "oversized_files": 0,
-  "inventory_sha256": "a8f48246c86401a187f9884869c16839f377237a866453f4b1a8c678df0dc707",
+  "final_figure_count": 11,
+  "main_figure_count": 6,
+  "supplementary_figure_count": 5,
+  "inventory_sha256": "75a31826c7bce0884153c3cc8fc63f7de24fd8548cad3b1169c3780854125650",
   "figures": [
     {
-      "file": "05_FINAL_FIGURES/01_MAIN_TEXT/Figure_1_Primary_Contrasts.png",
+      "file": "05_FINAL_FIGURES/01_MAIN_TEXT/Figure_1_Methodology_Flowchart.png",
+      "width_px": 3468,
+      "height_px": 2740,
+      "dpi_x": 399.9992,
+      "dpi_y": 399.9992,
+      "sha256": "a42c26ebf87d59043da800b6177db505de5ed8a47f7706be104e606af529a091"
+    },
+    {
+      "file": "05_FINAL_FIGURES/01_MAIN_TEXT/Figure_2_Primary_Contrasts.png",
       "width_px": 2772,
       "height_px": 1482,
-      "dpi_x": 400,
-      "dpi_y": 400
+      "dpi_x": 399.9992,
+      "dpi_y": 399.9992,
+      "sha256": "371884fb98ae2e335a4522b710955282dc9a46fa20fb365e536db14dffe7a89c"
     },
     {
-      "file": "05_FINAL_FIGURES/01_MAIN_TEXT/Figure_2_Dataset_Heterogeneity.png",
+      "file": "05_FINAL_FIGURES/01_MAIN_TEXT/Figure_3_Dataset_Heterogeneity.png",
       "width_px": 2923,
       "height_px": 2485,
-      "dpi_x": 400,
-      "dpi_y": 400
+      "dpi_x": 399.9992,
+      "dpi_y": 399.9992,
+      "sha256": "f8ea5e3e6f34af54297cb19b5032cf1a07dc1d2cbc4494b83fa35fe87326da6b"
     },
     {
-      "file": "05_FINAL_FIGURES/01_MAIN_TEXT/Figure_3_Sample_Size.png",
-      "width_px": 2847,
-      "height_px": 1762,
-      "dpi_x": 400,
-      "dpi_y": 400
+      "file": "05_FINAL_FIGURES/01_MAIN_TEXT/Figure_4_Matched_Sample_Size.png",
+      "width_px": 2925,
+      "height_px": 2081,
+      "dpi_x": 299.9994,
+      "dpi_y": 299.9994,
+      "sha256": "943470189a767ec6fe247d9b80ccf04e1288d4f644ca0df7474ceef8b8db767e"
     },
     {
-      "file": "05_FINAL_FIGURES/01_MAIN_TEXT/Figure_4_Moderators.png",
+      "file": "05_FINAL_FIGURES/01_MAIN_TEXT/Figure_5_Moderators.png",
       "width_px": 3967,
       "height_px": 1628,
-      "dpi_x": 400,
-      "dpi_y": 400
+      "dpi_x": 399.9992,
+      "dpi_y": 399.9992,
+      "sha256": "a0514b7ddc9a6755cbc21637734fd8ee3f295cdf131d8035aa968cb6f5a53ac7"
     },
     {
-      "file": "05_FINAL_FIGURES/01_MAIN_TEXT/Figure_5_Model_Family.png",
-      "width_px": 2850,
-      "height_px": 1802,
-      "dpi_x": 400,
-      "dpi_y": 400
+      "file": "05_FINAL_FIGURES/01_MAIN_TEXT/Figure_6_Paired_Model_Family.png",
+      "width_px": 2653,
+      "height_px": 1605,
+      "dpi_x": 299.9994,
+      "dpi_y": 299.9994,
+      "sha256": "95bf9ee14768630f941e407d8dd905cbb5ee848b591be9128936716e28dcdee4"
     },
     {
       "file": "05_FINAL_FIGURES/02_SUPPLEMENTARY/Figure_S1_Model_Family_Sensitivity.png",
       "width_px": 2850,
       "height_px": 1721,
-      "dpi_x": 400,
-      "dpi_y": 400
+      "dpi_x": 399.9992,
+      "dpi_y": 399.9992,
+      "sha256": "fb96304796345a46d06250a916526f190d3fbe32c5a3f5089d40ec53ab4d799e"
     },
     {
       "file": "05_FINAL_FIGURES/02_SUPPLEMENTARY/Figure_S2_Mixed_Model_Diagnostics.png",
       "width_px": 3568,
       "height_px": 1562,
-      "dpi_x": 400,
-      "dpi_y": 400
+      "dpi_x": 399.9992,
+      "dpi_y": 399.9992,
+      "sha256": "f122a8035b0730d8db93d1b50b44bcace44a6e7d242edc28244c37c72ada41f2"
     },
     {
       "file": "05_FINAL_FIGURES/02_SUPPLEMENTARY/Figure_S3_Robustness.png",
-      "width_px": 3555,
-      "height_px": 1562,
-      "dpi_x": 400,
-      "dpi_y": 400
+      "width_px": 3262,
+      "height_px": 1310,
+      "dpi_x": 299.9994,
+      "dpi_y": 299.9994,
+      "sha256": "1a30e28e19c088a4001b68428a31e7f01a05f84b3c4e917a5b2e3d13ed9cf104"
+    },
+    {
+      "file": "05_FINAL_FIGURES/02_SUPPLEMENTARY/Figure_S4_Adjusted_Model_Sensitivity.png",
+      "width_px": 2850,
+      "height_px": 1802,
+      "dpi_x": 399.9992,
+      "dpi_y": 399.9992,
+      "sha256": "f0cb14dad8aa32a1f1a719ecae0bc16cd6d288235f2aba2e7471ac1b4db0a42f"
+    },
+    {
+      "file": "05_FINAL_FIGURES/02_SUPPLEMENTARY/Figure_S5_Dataset_Differences.png",
+      "width_px": 2658,
+      "height_px": 1761,
+      "dpi_x": 299.9994,
+      "dpi_y": 299.9994,
+      "sha256": "9a7453db3cff3d6b514eca741b744714b96eff273eda07a480286021b916fc85"
     }
   ],
-  "details": {
-    "private_hits": [],
-    "forbidden_names": [],
-    "figure_generation_code_hits": [],
-    "syntax_errors": [],
-    "json_errors": [],
-    "oversized": []
-  }
+  "previous_release_audit_not_rerun": {
+    "release_status": "PASS",
+    "included_dataset_count": 14,
+    "validated_atomic_result_units": 2946,
+    "atomic_summary_files": 2946,
+    "private_pattern_flags": 0,
+    "forbidden_builder_file_flags": 0,
+    "figure_generation_code_flags": 0,
+    "python_syntax_errors": 0,
+    "json_parse_errors": 0,
+    "oversized_files": 0,
+    "details": {
+      "private_hits": [],
+      "forbidden_names": [],
+      "figure_generation_code_hits": [],
+      "syntax_errors": [],
+      "json_errors": [],
+      "oversized": []
+    }
+  },
+  "end_to_end_reproduction_verified": false
 }

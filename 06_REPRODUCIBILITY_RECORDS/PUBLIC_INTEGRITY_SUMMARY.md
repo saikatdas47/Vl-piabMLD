@@ -1,15 +1,15 @@
 # Public release integrity summary
 
-Overall status: **PASS**
+Figure synchronization status: **PASS**
 
-- Public files inventoried: 11860
-- Validated atomic result units: 2946
-- Static final figures: 8; all verified at 400 DPI: yes
-- Private-path or identity-pattern flags: 0
-- Manuscript/workbook/figure builder files: 0
-- Figure-generation code flags: 0
-- Python syntax errors: 0
-- JSON parse errors: 0
-- Files over 95 MB: 0
+- Main figures: 6
+- Supplementary figures: 5
+- All 11 PNGs are byte-identical to the current author-maintained source figures.
+- Figure numbering follows the current manuscript and supplement.
+- Resolution metadata is recorded per image in the manifest.
+- Superseded paths are removed from the current set. Prior versions remain in Git history.
+- Frozen experiment outputs, primary analysis tables, research code, and the protocol were not changed by this update.
 
-The CSV inventory records SHA-256 hashes for the public files. The release contains final figures but excludes private figure-rendering and manuscript-building utilities.
+The CSV inventory records current public file sizes and SHA-256 hashes. It excludes the three integrity records to avoid self-referential hashes. The manifest records the inventory hash. Every listed file was checked against the refreshed inventory.
+
+This is a figure synchronization and integrity check. The earlier full release audit is not being repeated or newly certified here. End-to-end execution, independent data acquisition, and the current manuscript's additional derived summaries require separate reproducibility checks. Figure-generation scripts remain excluded from this release.
