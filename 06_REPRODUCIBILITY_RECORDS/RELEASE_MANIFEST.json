@@ -1,104 +1,112 @@
 {
-  "release_status": "FIGURE_SYNC_VERIFIED",
-  "verification_scope": "Figure synchronization and current-file hash inventory only",
-  "public_file_count_excluding_release_records": 11867,
+  "release_status": "SUBMISSION_FIGURE_SYNC_VERIFIED",
+  "verification_scope": "Submission figures, descriptive reporting, and current tracked-file inventory. No model rerun.",
+  "verified_at_utc": "2026-10-03T14:00:30.101714+00:00",
+  "source_baseline_commit": "9c56efaf838e3685eccb73b971b5e4fb649403e3",
+  "public_file_count_excluding_release_records": 11865,
   "included_dataset_count": 14,
   "validated_atomic_result_units": 2946,
   "atomic_summary_files": 2946,
-  "final_figure_count": 11,
+  "final_figure_count": 9,
   "main_figure_count": 6,
-  "supplementary_figure_count": 5,
-  "inventory_sha256": "a323981ebfd31573b56f74d80860a270424f8daff3202e1fbe3fe51547b08177",
+  "supplementary_figure_count": 3,
+  "inventory_sha256": "89abaead2991059546de1fcaef97eab9b9928b20ea0ee3da5a8d5c634ce8d9ae",
   "figures": [
     {
-      "file": "05_FINAL_FIGURES/01_MAIN_TEXT/Figure_1_Methodology_Flowchart.png",
-      "width_px": 3468,
-      "height_px": 2740,
-      "dpi_x": 399.9992,
-      "dpi_y": 399.9992,
-      "sha256": "a42c26ebf87d59043da800b6177db505de5ed8a47f7706be104e606af529a091"
+      "file": "05_FINAL_FIGURES/Main/Fig1.tif",
+      "width_px": 4180,
+      "height_px": 5225,
+      "dpi_x": 600.0,
+      "dpi_y": 600.0,
+      "mode": "RGB",
+      "compression": "tiff_lzw",
+      "sha256": "b623cedd9d76d654d9e485baf9027bc1fdf2ebba7c20d4c9958596e02bf9d042"
     },
     {
-      "file": "05_FINAL_FIGURES/01_MAIN_TEXT/Figure_2_Primary_Contrasts.png",
+      "file": "05_FINAL_FIGURES/Main/Fig2.tif",
       "width_px": 2772,
       "height_px": 1482,
-      "dpi_x": 399.9992,
-      "dpi_y": 399.9992,
-      "sha256": "371884fb98ae2e335a4522b710955282dc9a46fa20fb365e536db14dffe7a89c"
+      "dpi_x": 400.0,
+      "dpi_y": 400.0,
+      "mode": "RGB",
+      "compression": "tiff_lzw",
+      "sha256": "c314a5ef8c8a8eb95e67d11c739e6e6ea092e5828012686517316c553bbba794"
     },
     {
-      "file": "05_FINAL_FIGURES/01_MAIN_TEXT/Figure_3_Dataset_Heterogeneity.png",
+      "file": "05_FINAL_FIGURES/Main/Fig3.tif",
       "width_px": 2923,
       "height_px": 2485,
-      "dpi_x": 399.9992,
-      "dpi_y": 399.9992,
-      "sha256": "f8ea5e3e6f34af54297cb19b5032cf1a07dc1d2cbc4494b83fa35fe87326da6b"
+      "dpi_x": 400.0,
+      "dpi_y": 400.0,
+      "mode": "RGB",
+      "compression": "tiff_lzw",
+      "sha256": "f63dac028612c23fa0c0691c1e3d59151933f34c89c74c90f894b5cb9cb7d93a"
     },
     {
-      "file": "05_FINAL_FIGURES/01_MAIN_TEXT/Figure_4_Matched_Sample_Size.png",
+      "file": "05_FINAL_FIGURES/Main/Fig4.tif",
       "width_px": 2925,
       "height_px": 2081,
-      "dpi_x": 299.9994,
-      "dpi_y": 299.9994,
-      "sha256": "943470189a767ec6fe247d9b80ccf04e1288d4f644ca0df7474ceef8b8db767e"
+      "dpi_x": 400.0,
+      "dpi_y": 400.0,
+      "mode": "RGB",
+      "compression": "tiff_lzw",
+      "sha256": "86bfa8d02585a8f8afaaad0bab1e781b1826a94c0a3b86fba19181ae169d94c2"
     },
     {
-      "file": "05_FINAL_FIGURES/01_MAIN_TEXT/Figure_5_Moderators.png",
+      "file": "05_FINAL_FIGURES/Main/Fig5.tif",
       "width_px": 3967,
       "height_px": 1628,
-      "dpi_x": 399.9992,
-      "dpi_y": 399.9992,
-      "sha256": "a0514b7ddc9a6755cbc21637734fd8ee3f295cdf131d8035aa968cb6f5a53ac7"
+      "dpi_x": 600.0,
+      "dpi_y": 600.0,
+      "mode": "RGB",
+      "compression": "tiff_lzw",
+      "sha256": "f8ce6c0040d9e36352e1edfd97406aecd2ddf19a138c3895e19398f30eef7d33"
     },
     {
-      "file": "05_FINAL_FIGURES/01_MAIN_TEXT/Figure_6_Paired_Model_Family.png",
+      "file": "05_FINAL_FIGURES/Main/Fig6.tif",
       "width_px": 2653,
       "height_px": 1605,
-      "dpi_x": 299.9994,
-      "dpi_y": 299.9994,
-      "sha256": "95bf9ee14768630f941e407d8dd905cbb5ee848b591be9128936716e28dcdee4"
+      "dpi_x": 400.0,
+      "dpi_y": 400.0,
+      "mode": "RGB",
+      "compression": "tiff_lzw",
+      "sha256": "d2d72f73092e7bb99a277dc1caa1e93f69a3dd216dd99f23efdff50f82a8c04e"
     },
     {
-      "file": "05_FINAL_FIGURES/02_SUPPLEMENTARY/Figure_S1_Model_Family_Sensitivity.png",
+      "file": "05_FINAL_FIGURES/Supplementary/FigS1.tif",
       "width_px": 2850,
       "height_px": 1721,
-      "dpi_x": 399.9992,
-      "dpi_y": 399.9992,
-      "sha256": "fb96304796345a46d06250a916526f190d3fbe32c5a3f5089d40ec53ab4d799e"
+      "dpi_x": 400.0,
+      "dpi_y": 400.0,
+      "mode": "RGB",
+      "compression": "tiff_lzw",
+      "sha256": "329d738d0d89d54f0db187675425f6d867f89e4eda53da9db25beacb68c4ece5"
     },
     {
-      "file": "05_FINAL_FIGURES/02_SUPPLEMENTARY/Figure_S2_Mixed_Model_Diagnostics.png",
+      "file": "05_FINAL_FIGURES/Supplementary/FigS2.tif",
       "width_px": 3568,
       "height_px": 1562,
-      "dpi_x": 399.9992,
-      "dpi_y": 399.9992,
-      "sha256": "f122a8035b0730d8db93d1b50b44bcace44a6e7d242edc28244c37c72ada41f2"
+      "dpi_x": 500.0,
+      "dpi_y": 500.0,
+      "mode": "RGB",
+      "compression": "tiff_lzw",
+      "sha256": "811a2026088fd81a04c8ee0732d615a24ed04c22a912aa6ea6aba66e6b4dfa41"
     },
     {
-      "file": "05_FINAL_FIGURES/02_SUPPLEMENTARY/Figure_S3_Robustness.png",
-      "width_px": 3262,
-      "height_px": 1310,
-      "dpi_x": 299.9994,
-      "dpi_y": 299.9994,
-      "sha256": "1a30e28e19c088a4001b68428a31e7f01a05f84b3c4e917a5b2e3d13ed9cf104"
-    },
-    {
-      "file": "05_FINAL_FIGURES/02_SUPPLEMENTARY/Figure_S4_Adjusted_Model_Sensitivity.png",
-      "width_px": 2850,
-      "height_px": 1802,
-      "dpi_x": 399.9992,
-      "dpi_y": 399.9992,
-      "sha256": "f0cb14dad8aa32a1f1a719ecae0bc16cd6d288235f2aba2e7471ac1b4db0a42f"
-    },
-    {
-      "file": "05_FINAL_FIGURES/02_SUPPLEMENTARY/Figure_S5_Dataset_Differences.png",
+      "file": "05_FINAL_FIGURES/Supplementary/FigS3.tif",
       "width_px": 2658,
       "height_px": 1761,
-      "dpi_x": 299.9994,
-      "dpi_y": 299.9994,
-      "sha256": "9a7453db3cff3d6b514eca741b744714b96eff273eda07a480286021b916fc85"
+      "dpi_x": 400.0,
+      "dpi_y": 400.0,
+      "mode": "RGB",
+      "compression": "tiff_lzw",
+      "sha256": "95526c533798e3eb277d22d79de67699158aa8e34aec576af377fcb495293c4b"
     }
   ],
+  "editable_figure_source": {
+    "file": "05_FINAL_FIGURES/Main/Fig1_Methodology_Flowchart.drawio",
+    "sha256": "4f18467bd022ffc208548c52469336480964664f0dfb19361f07395c9a2acfa3"
+  },
   "previous_release_audit_not_rerun": {
     "release_status": "PASS",
     "included_dataset_count": 14,
@@ -119,7 +127,5 @@
       "oversized": []
     }
   },
-  "end_to_end_reproduction_verified": false,
-  "working_copy_status": "Includes preserved local changes not committed or pushed",
-  "synced_remote_commit": "db0871aa75244c350b9b393e92b6ff7c16d1a0f6"
+  "end_to_end_reproduction_verified": false
 }

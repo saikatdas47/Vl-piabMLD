@@ -10,7 +10,7 @@ The repository is organised in the same order as the study workflow: study defin
 - 3 model families: logistic regression, random forest, and gradient-boosted trees
 - 42 complete dataset-model packages
 - 2,946 validated atomic result units
-- Leakage-free repeated nested cross-validation as the reference
+- Fold-contained repeated nested cross-validation as the reference
 - Four primary comparisons: non-nested tuning, global preprocessing, global supervised feature selection, and global oversampling
 
 The locked protocol and analysis plan are archived at [Zenodo](https://doi.org/10.5281/zenodo.22735962).
@@ -42,7 +42,7 @@ Primary contrasts, model-family analyses, sample-size analyses, moderator analys
 
 ### `05_FINAL_FIGURES/`
 
-Six main-text figures and five supplementary figures match the current manuscript and supplement numbering. The PNG files preserve the supplied pixels and resolution metadata. The figure map records the role of each image. Figure-generation code is intentionally excluded from the public release.
+Six main-text TIFF figures and three supplementary TIFF figures match the current submission package. The editable draw.io source for Fig 1 is included. The [figure map](05_FINAL_FIGURES/README.md) records the role of each image and the supplementary renumbering. Superseded figures remain available in Git history. Figure-rendering scripts are not included.
 
 ### `06_REPRODUCIBILITY_RECORDS/`
 
@@ -64,7 +64,9 @@ Detailed script order and input-output relationships are provided in `02_REPRODU
 
 ## Main findings represented in this release
 
-Global oversampling produced the clearest positive performance inflation relative to the leakage-free reference. The other primary mechanisms showed smaller or inconsistent effects. Sample size and feature-to-sample ratio did not show consistent moderation. Minority prevalence and model family showed descriptive patterns, but the corresponding mixed-effects evidence is treated as sensitivity evidence because the diagnostic gate failed.
+Global oversampling showed the clearest evidence of higher internal AUROC estimates relative to the fold-contained reference. The other primary conditions showed smaller or inconsistent differences. Sample size and feature-to-sample ratio did not show consistent moderation. Minority prevalence and model family showed descriptive patterns. The mixed-effects model failed its diagnostic gate.
+
+The contrasts describe implemented pipeline differences, not isolated causal effects of validation-error placement. C4 also changed representation, feature count, and tuning space. Condition-specific search seeds did not enforce identical candidates. C2 used pooled out-of-fold AUROC for reporting rather than the reference mean of outer-fold AUROCs. Predictor-signature grouping does not establish patient identity or guarantee the absence of clinical target leakage.
 
 See `04_STATISTICAL_ANALYSES/03_INTERPRETATION/FINAL_HYPOTHESIS_REPORT.md` for the complete hypothesis decisions and diagnostic qualifications.
 

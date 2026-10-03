@@ -1,0 +1,137 @@
+<mxfile host="Electron">
+  <diagram name="Fig 1 Methodology" id="X1-wapVEulSQvDEfk1Lz">
+    <mxGraphModel dx="1698" dy="1331" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1250" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="9As69AjW_h3PAedni1Ec-1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fontFamily=Arial;fontSize=18;fontColor=#000000;spacing=10;" value="&lt;b&gt;Outcome-blind dataset audit&lt;/b&gt;&lt;br&gt;&lt;br&gt;14 public biomedical datasets&lt;br&gt;Targets and provenance frozen" vertex="1">
+          <mxGeometry height="100" width="320" x="300" y="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="9As69AjW_h3PAedni1Ec-2" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fontFamily=Arial;fontSize=18;fontColor=#000000;spacing=10;" value="&lt;b&gt;Frozen evaluation design&lt;/b&gt;&lt;br&gt;&lt;br&gt;Predictor-signature groups&lt;br&gt;Stratified CV splits&lt;br&gt;Registered seeds and metrics" vertex="1">
+          <mxGeometry height="130" width="360" x="280" y="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="9As69AjW_h3PAedni1Ec-4" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1.5;fontFamily=Arial;fontSize=18;fontColor=#000000;spacing=10;" value="&lt;b&gt;C0 Fold-contained reference&lt;/b&gt;&lt;br&gt;&lt;br&gt;Learned operations stay&lt;br&gt;within training partitions" vertex="1">
+          <mxGeometry height="150" width="260" x="30" y="330" as="geometry"/>
+        </mxCell>
+        <mxCell id="9As69AjW_h3PAedni1Ec-5" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1.5;fontFamily=Arial;fontSize=18;fontColor=#000000;spacing=10;" value="&lt;b&gt;Repeated nested CV&lt;/b&gt;&lt;br&gt;&lt;br&gt;Inner tuning and thresholding&lt;br&gt;Outer assessment" vertex="1">
+          <mxGeometry height="150" width="260" x="330" y="330" as="geometry"/>
+        </mxCell>
+        <mxCell id="9As69AjW_h3PAedni1Ec-6" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1.5;fontFamily=Arial;fontSize=18;fontColor=#000000;spacing=10;" value="&lt;b&gt;C0 estimates&lt;/b&gt;&lt;br&gt;&lt;br&gt;Mean outer-fold AUROC&lt;br&gt;For each dataset and model" vertex="1">
+          <mxGeometry height="150" width="260" x="630" y="330" as="geometry"/>
+        </mxCell>
+        <mxCell id="9As69AjW_h3PAedni1Ec-10" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1.5;fontFamily=Arial;fontSize=18;fontColor=#000000;spacing=10;" value="&lt;b&gt;C2 Non-nested tuning&lt;/b&gt;&lt;br&gt;&lt;br&gt;Same folds for selection&lt;br&gt;and reporting&lt;br&gt;Pooled out-of-fold AUROC" vertex="1">
+          <mxGeometry height="180" width="210" x="10" y="600" as="geometry"/>
+        </mxCell>
+        <mxCell id="9As69AjW_h3PAedni1Ec-11" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1.5;fontFamily=Arial;fontSize=18;fontColor=#000000;spacing=10;" value="&lt;b&gt;C3 Global preprocessing&lt;/b&gt;&lt;br&gt;&lt;br&gt;Preprocessing fitted&lt;br&gt;before cross-validation" vertex="1">
+          <mxGeometry height="180" width="210" x="240" y="600" as="geometry"/>
+        </mxCell>
+        <mxCell id="9As69AjW_h3PAedni1Ec-12" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1.5;fontFamily=Arial;fontSize=18;fontColor=#000000;spacing=10;" value="&lt;b&gt;C4 Global selection&lt;/b&gt;&lt;br&gt;&lt;br&gt;Fixed 50% raw predictors&lt;br&gt;Ranked before CV&lt;br&gt;Different representation&lt;br&gt;and tuning space" vertex="1">
+          <mxGeometry height="180" width="210" x="470" y="600" as="geometry"/>
+        </mxCell>
+        <mxCell id="9As69AjW_h3PAedni1Ec-13" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fontFamily=Arial;fontSize=18;fontColor=#000000;spacing=10;" value="&lt;b&gt;Paired comparison with C0&lt;/b&gt;&lt;br&gt;&lt;br&gt;ΔAUROC = comparison minus C0&lt;br&gt;Mean across three model families&lt;br&gt;One difference per dataset" vertex="1">
+          <mxGeometry height="130" width="550" x="190" y="870" as="geometry"/>
+        </mxCell>
+        <mxCell id="9As69AjW_h3PAedni1Ec-14" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fontFamily=Arial;fontSize=18;fontColor=#000000;spacing=10;" value="&lt;b&gt;Dataset-level inference&lt;/b&gt;&lt;br&gt;&lt;br&gt;Median difference and 95% bootstrap interval&lt;br&gt;Wilcoxon test and Holm-adjusted p-value" vertex="1">
+          <mxGeometry height="110" width="550" x="190" y="1040" as="geometry"/>
+        </mxCell>
+        <mxCell id="wimkndHhFBkSv_BvzuE--1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1.5;fontFamily=Arial;fontSize=18;fontColor=#000000;spacing=10;" value="&lt;b&gt;C5 Global oversampling&lt;/b&gt;&lt;br&gt;&lt;br&gt;Random oversampling&lt;br&gt;before cross-validation" vertex="1">
+          <mxGeometry height="180" width="210" x="700" y="600" as="geometry"/>
+        </mxCell>
+        <mxCell id="comparisons-label" parent="1" vertex="1" value="&lt;b&gt;C2–C5 Implemented pipeline comparisons&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=18;fontColor=#000000;align=center;verticalAlign=middle;">
+          <mxGeometry x="130" y="510" width="650" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="footnote" parent="1" vertex="1" value="CV, cross-validation. AUROC, area under the receiver operating characteristic curve.&lt;br&gt;Differences do not isolate a single causal effect. C2 has no independent outer assessment loop." style="text;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=16;fontColor=#000000;align=center;verticalAlign=middle;">
+          <mxGeometry x="10" y="1175" width="950" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="audit-design" parent="1" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" source="9As69AjW_h3PAedni1Ec-1" target="9As69AjW_h3PAedni1Ec-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="design-reference" parent="1" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" source="9As69AjW_h3PAedni1Ec-2" target="9As69AjW_h3PAedni1Ec-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="295"/>
+              <mxPoint x="160" y="295"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reference-nested" parent="1" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" source="9As69AjW_h3PAedni1Ec-4" target="9As69AjW_h3PAedni1Ec-5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="nested-results" parent="1" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" source="9As69AjW_h3PAedni1Ec-5" target="9As69AjW_h3PAedni1Ec-6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="design-comparison-bus" parent="1" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=none;endFill=1;exitX=1;exitY=0.5;entryX=0.5;entryY=0;" source="9As69AjW_h3PAedni1Ec-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="565" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="930" y="215"/>
+              <mxPoint x="930" y="565"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="design-c2" parent="1" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="9As69AjW_h3PAedni1Ec-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="565" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c2-output" parent="1" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=none;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" source="9As69AjW_h3PAedni1Ec-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="820" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="design-c3" parent="1" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="9As69AjW_h3PAedni1Ec-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345" y="565" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c3-output" parent="1" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=none;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" source="9As69AjW_h3PAedni1Ec-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345" y="820" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="design-c4" parent="1" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="9As69AjW_h3PAedni1Ec-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="575" y="565" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c4-output" parent="1" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=none;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" source="9As69AjW_h3PAedni1Ec-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="575" y="820" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="design-c5" parent="1" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="wimkndHhFBkSv_BvzuE--1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="805" y="565" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5-output" parent="1" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=none;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" source="wimkndHhFBkSv_BvzuE--1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="805" y="820" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="output-bus" parent="1" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=none;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="820" as="sourcePoint"/>
+            <mxPoint x="805" y="820" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="outputs-paired" parent="1" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="9As69AjW_h3PAedni1Ec-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="820" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reference-paired" parent="1" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=1;entryY=0.5;" source="9As69AjW_h3PAedni1Ec-6" target="9As69AjW_h3PAedni1Ec-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="970" y="405"/>
+              <mxPoint x="970" y="935"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="paired-inference" parent="1" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" source="9As69AjW_h3PAedni1Ec-13" target="9As69AjW_h3PAedni1Ec-14">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

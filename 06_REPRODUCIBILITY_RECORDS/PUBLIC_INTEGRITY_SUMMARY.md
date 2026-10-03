@@ -1,19 +1,17 @@
 # Public release integrity summary
 
-Figure synchronization status: **PASS**
+## Verification scope
 
-- Main figures: 6
-- Supplementary figures: 5
-- All 11 PNGs are byte-identical to the current author-maintained source figures.
-- Figure numbering follows the current manuscript and supplement.
-- Resolution metadata is recorded per image in the manifest.
-- Superseded paths are removed from the current set. Prior versions remain in Git history.
-- Frozen experiment outputs, primary analysis tables, research code, and the protocol were not changed by this update.
+This update synchronizes submission figures, their numbering, descriptive documentation, and current-file integrity records. It does not repeat model execution or certify end-to-end reproduction.
 
-The CSV inventory records current public file sizes and SHA-256 hashes. It excludes the three integrity records to avoid self-referential hashes. The manifest records the inventory hash. Every listed file was checked against the refreshed inventory.
+- Main figures: 6 TIFF files.
+- Supplementary figures: 3 TIFF files.
+- All 9 TIFF files are byte-identical to the current submission package.
+- The editable Fig 1 draw.io source is included and matches the submission package.
+- Fig 4 shows matched trajectories for seven datasets. Fig 6 shows descriptive paired model-family differences.
+- Former supplementary Fig S5 is now Fig S3. Superseded plots remain in Git history.
+- Frozen experiment outputs, numerical statistical outputs, and research code were not changed by this synchronization. The figure-placement map was updated.
 
-This is a figure synchronization and integrity check. The earlier full release audit is not being repeated or newly certified here. End-to-end execution, independent data acquisition, and the current manuscript's additional derived summaries require separate reproducibility checks. Figure-generation scripts remain excluded from this release.
+The CSV inventory records current tracked public file sizes and SHA-256 hashes. It excludes the three integrity records to avoid self-referential hashes. The JSON manifest records the inventory hash and per-figure metadata. Every listed path, size, and hash was verified against the current files.
 
-## Local pending changes
-
-The local sample-size reporting correction, source-version registry, fold-count table, and related workbook/code edits are preserved as uncommitted work. They are not part of the figure-only GitHub commit. The working-copy inventory below includes those local files.
+The earlier release audit is retained in the manifest as historical evidence, not a newly repeated certification. Anonymous HTTP checks confirmed access to the repository, key code and result files, and the open Zenodo protocol record. The preregistration archive remains unchanged.

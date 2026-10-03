@@ -1,5 +1,10 @@
 figure_file,recommended_location,purpose
-figure_5_h3_corrected_sample_size.png,Supplementary Results,H3 corrected sample-size analysis
-figure_6_h4_h5_moderators.png,Supplementary Results,H4 and H5 moderator patterns
-figure_7_h6_model_family.png,Supplementary Results,H6 model-family sensitivity
-figure_8_mixed_model_diagnostics.png,Supplementary Methods or diagnostics,Model diagnostic failure supporting fallback reporting
+05_FINAL_FIGURES/Main/Fig1.tif,Main manuscript,Workflow and implemented validation conditions
+05_FINAL_FIGURES/Main/Fig2.tif,Main manuscript,Primary paired AUROC contrasts
+05_FINAL_FIGURES/Main/Fig3.tif,Main manuscript,Dataset-level heterogeneity
+05_FINAL_FIGURES/Main/Fig4.tif,Main manuscript,Matched H3 trajectories across the same seven datasets
+05_FINAL_FIGURES/Main/Fig5.tif,Main manuscript,H4 and H5 dataset-level associations
+05_FINAL_FIGURES/Main/Fig6.tif,Main manuscript,Descriptive H6 paired model-family differences
+05_FINAL_FIGURES/Supplementary/FigS1.tif,S1 Appendix,Model-family-specific primary contrasts
+05_FINAL_FIGURES/Supplementary/FigS2.tif,S1 Appendix,Mixed-model diagnostic failure supporting fallback reporting
+05_FINAL_FIGURES/Supplementary/FigS3.tif,S1 Appendix,Dataset-level distributions of primary paired differences
