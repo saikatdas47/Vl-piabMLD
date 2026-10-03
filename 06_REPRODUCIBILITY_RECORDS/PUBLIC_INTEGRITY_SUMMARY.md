@@ -13,3 +13,7 @@ Figure synchronization status: **PASS**
 The CSV inventory records current public file sizes and SHA-256 hashes. It excludes the three integrity records to avoid self-referential hashes. The manifest records the inventory hash. Every listed file was checked against the refreshed inventory.
 
 This is a figure synchronization and integrity check. The earlier full release audit is not being repeated or newly certified here. End-to-end execution, independent data acquisition, and the current manuscript's additional derived summaries require separate reproducibility checks. Figure-generation scripts remain excluded from this release.
+
+## Local pending changes
+
+The local sample-size reporting correction, source-version registry, fold-count table, and related workbook/code edits are preserved as uncommitted work. They are not part of the figure-only GitHub commit. The working-copy inventory below includes those local files.

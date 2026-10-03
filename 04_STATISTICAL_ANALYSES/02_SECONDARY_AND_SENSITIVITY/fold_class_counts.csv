@@ -1,0 +1,85 @@
+display_index,dataset_name,repeat,outer_fold,outer_test_minority_n,inner_valid_fold_0_minority_n,inner_valid_fold_1_minority_n,inner_valid_fold_2_minority_n,inner_train_fold_0_minority_n,inner_train_fold_1_minority_n,inner_train_fold_2_minority_n
+Dataset 01,Breast Cancer Wisconsin Diagnostic,0,0,74,40,51,47,98,87,91
+Dataset 01,Breast Cancer Wisconsin Diagnostic,0,1,63,46,52,51,103,97,98
+Dataset 01,Breast Cancer Wisconsin Diagnostic,0,2,75,44,41,52,93,96,85
+Dataset 01,Breast Cancer Wisconsin Diagnostic,1,0,72,49,49,42,91,91,98
+Dataset 01,Breast Cancer Wisconsin Diagnostic,1,1,70,47,45,50,95,97,92
+Dataset 01,Breast Cancer Wisconsin Diagnostic,1,2,70,49,38,55,93,104,87
+Dataset 02,Chronic Kidney Disease,0,0,52,28,36,34,70,62,64
+Dataset 02,Chronic Kidney Disease,0,1,48,34,30,38,68,72,64
+Dataset 02,Chronic Kidney Disease,0,2,50,32,34,34,68,66,66
+Dataset 02,Chronic Kidney Disease,1,0,50,32,35,33,68,65,67
+Dataset 02,Chronic Kidney Disease,1,1,47,26,36,41,77,67,62
+Dataset 02,Chronic Kidney Disease,1,2,53,28,37,32,69,60,65
+Dataset 03,ILPD Indian Liver Patient,0,0,54,39,44,30,74,69,83
+Dataset 03,ILPD Indian Liver Patient,0,1,54,36,38,39,77,75,74
+Dataset 03,ILPD Indian Liver Patient,0,2,59,40,32,36,68,76,72
+Dataset 03,ILPD Indian Liver Patient,1,0,53,41,44,29,73,70,85
+Dataset 03,ILPD Indian Liver Patient,1,1,60,35,35,37,72,72,70
+Dataset 03,ILPD Indian Liver Patient,1,2,54,39,44,30,74,69,83
+Dataset 04,Heart Disease Cleveland,0,0,49,29,33,28,61,57,62
+Dataset 04,Heart Disease Cleveland,0,1,44,29,33,33,66,62,62
+Dataset 04,Heart Disease Cleveland,0,2,46,30,32,20,55,58,62
+Dataset 04,Heart Disease Cleveland,1,0,48,31,34,26,60,57,65
+Dataset 04,Heart Disease Cleveland,1,1,50,29,33,25,59,54,63
+Dataset 04,Heart Disease Cleveland,1,2,40,34,31,33,65,67,65
+Dataset 05,SPECT Heart,0,0,32,9,8,6,14,15,17
+Dataset 05,SPECT Heart,0,1,15,10,8,22,30,32,18
+Dataset 05,SPECT Heart,0,2,8,23,14,10,24,33,37
+Dataset 05,SPECT Heart,1,0,29,11,9,6,15,17,20
+Dataset 05,SPECT Heart,1,1,13,4,28,10,38,14,32
+Dataset 05,SPECT Heart,1,2,13,27,9,6,15,33,36
+Dataset 06,Cervical Cancer Risk Factors,0,0,13,16,12,14,26,30,28
+Dataset 06,Cervical Cancer Risk Factors,0,1,22,8,13,12,25,20,21
+Dataset 06,Cervical Cancer Risk Factors,0,2,20,15,8,12,20,27,23
+Dataset 06,Cervical Cancer Risk Factors,1,0,19,15,6,15,21,30,21
+Dataset 06,Cervical Cancer Risk Factors,1,1,21,13,11,10,21,23,24
+Dataset 06,Cervical Cancer Risk Factors,1,2,15,15,5,20,25,35,20
+Dataset 07,HCV Data,0,0,21,18,18,18,36,36,36
+Dataset 07,HCV Data,0,1,24,14,19,18,37,32,33
+Dataset 07,HCV Data,0,2,30,20,13,12,25,32,33
+Dataset 07,HCV Data,1,0,25,18,20,12,32,30,38
+Dataset 07,HCV Data,1,1,17,18,19,21,40,39,37
+Dataset 07,HCV Data,1,2,33,6,21,15,36,21,27
+Dataset 08,Mammographic Mass,0,0,153,82,99,105,210,193,181
+Dataset 08,Mammographic Mass,0,1,125,120,97,103,200,223,217
+Dataset 08,Mammographic Mass,0,2,167,102,99,77,176,179,201
+Dataset 08,Mammographic Mass,1,0,150,92,105,84,189,190,211
+Dataset 08,Mammographic Mass,1,1,144,97,93,90,204,187,211
+Dataset 08,Mammographic Mass,1,2,151,86,109,99,208,185,195
+Dataset 09,Early Stage Diabetes Risk Prediction,0,0,83,44,51,22,73,66,95
+Dataset 09,Early Stage Diabetes Risk Prediction,0,1,67,41,48,44,92,85,89
+Dataset 09,Early Stage Diabetes Risk Prediction,0,2,50,53,67,30,97,83,120
+Dataset 09,Early Stage Diabetes Risk Prediction,1,0,58,45,44,53,97,98,89
+Dataset 09,Early Stage Diabetes Risk Prediction,1,1,68,35,40,57,97,92,75
+Dataset 09,Early Stage Diabetes Risk Prediction,1,2,74,32,55,39,94,71,87
+Dataset 10,Diabetic Retinopathy Debrecen,0,0,180,126,122,112,234,238,248
+Dataset 10,Diabetic Retinopathy Debrecen,0,1,187,124,116,113,229,237,240
+Dataset 10,Diabetic Retinopathy Debrecen,0,2,173,127,120,120,240,247,247
+Dataset 10,Diabetic Retinopathy Debrecen,1,0,183,121,122,114,236,235,243
+Dataset 10,Diabetic Retinopathy Debrecen,1,1,169,124,125,115,240,246,253
+Dataset 10,Diabetic Retinopathy Debrecen,1,2,188,114,127,107,238,221,245
+Dataset 11,Thoracic Surgery Data,0,0,27,15,12,16,28,31,27
+Dataset 11,Thoracic Surgery Data,0,1,21,16,16,17,33,33,32
+Dataset 11,Thoracic Surgery Data,0,2,22,15,18,15,33,30,33
+Dataset 11,Thoracic Surgery Data,1,0,29,11,12,18,30,29,23
+Dataset 11,Thoracic Surgery Data,1,1,17,9,19,25,44,34,28
+Dataset 11,Thoracic Surgery Data,1,2,24,11,13,22,35,33,24
+Dataset 12,Haberman's Survival,0,0,23,18,20,20,40,38,38
+Dataset 12,Haberman's Survival,0,1,32,15,17,17,34,32,32
+Dataset 12,Haberman's Survival,0,2,26,22,15,18,33,40,37
+Dataset 12,Haberman's Survival,1,0,30,18,22,11,33,29,40
+Dataset 12,Haberman's Survival,1,1,28,13,19,21,40,34,32
+Dataset 12,Haberman's Survival,1,2,23,20,21,17,38,37,41
+Dataset 13,Myocardial Infarction Complications,0,0,79,59,69,64,133,123,128
+Dataset 13,Myocardial Infarction Complications,0,1,92,55,62,62,124,117,117
+Dataset 13,Myocardial Infarction Complications,0,2,100,56,55,60,115,116,111
+Dataset 13,Myocardial Infarction Complications,1,0,75,70,69,57,126,127,139
+Dataset 13,Myocardial Infarction Complications,1,1,102,51,59,59,118,110,110
+Dataset 13,Myocardial Infarction Complications,1,2,94,64,47,66,113,130,111
+Dataset 14,Differentiated Thyroid Cancer Recurrence,0,0,40,22,20,26,46,48,42
+Dataset 14,Differentiated Thyroid Cancer Recurrence,0,1,39,20,27,22,49,42,47
+Dataset 14,Differentiated Thyroid Cancer Recurrence,0,2,29,31,21,27,48,58,52
+Dataset 14,Differentiated Thyroid Cancer Recurrence,1,0,35,26,22,25,47,51,48
+Dataset 14,Differentiated Thyroid Cancer Recurrence,1,1,33,27,24,24,48,51,51
+Dataset 14,Differentiated Thyroid Cancer Recurrence,1,2,40,18,24,26,50,44,42

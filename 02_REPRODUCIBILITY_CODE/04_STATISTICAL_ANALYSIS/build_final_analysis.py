@@ -369,17 +369,29 @@ def aggregate(raw: pd.DataFrame, names: dict[str, str], seed=20260911):
         })
     sample_effects = pd.DataFrame(sample_rows)
     if len(sample_effects):
-        sample_summary = sample_effects.groupby(["sample_fraction", "condition"])["delta_AUROC"].agg(
-            datasets="count", median_delta_AUROC="median"
-        ).reset_index()
+        # Models are repeated measurements within a dataset, not independent datasets.
+        sample_dataset_effects = sample_effects.groupby(
+            ["dataset_id", "sample_fraction", "condition"], as_index=False
+        )["delta_AUROC"].mean()
+        sample_summary = sample_dataset_effects.groupby(
+            ["sample_fraction", "condition"], as_index=False
+        ).agg(
+            datasets=("dataset_id", "nunique"),
+            median_delta_AUROC=("delta_AUROC", "median"),
+        )
     else:
         sample_summary = pd.DataFrame(columns=["sample_fraction", "condition", "datasets", "median_delta_AUROC"])
     full_for_sample = dataset_effects[["dataset_id", "condition", "delta_AUROC"]].copy()
     full_for_sample["sample_fraction"] = 1.0
-    full_summary = full_for_sample.groupby(["sample_fraction", "condition"])["delta_AUROC"].agg(
-        datasets="count", median_delta_AUROC="median"
-    ).reset_index()
-    sample_summary = pd.concat([sample_summary, full_summary], ignore_index=True)
+    full_summary = full_for_sample.groupby(
+        ["sample_fraction", "condition"], as_index=False
+    ).agg(
+        datasets=("dataset_id", "nunique"),
+        median_delta_AUROC=("delta_AUROC", "median"),
+    )
+    sample_summary = pd.concat([sample_summary, full_summary], ignore_index=True).sort_values(
+        ["sample_fraction", "condition"], ignore_index=True
+    )
 
     wide = dataset_effects.pivot(index="dataset_id", columns="condition", values="delta_AUROC").dropna()
     if len(wide):

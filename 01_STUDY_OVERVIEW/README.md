@@ -9,3 +9,5 @@ The primary estimand is the paired within-dataset difference in AUROC relative t
 The mixed-effects model converged but failed residual-normality and equal-variance diagnostics. Its coefficient and likelihood-ratio results are therefore retained as sensitivity evidence. Final H3-H6 decisions use the prespecified matched or stratified fallback analyses.
 
 The archived protocol and locked analysis plan are available at https://doi.org/10.5281/zenodo.22735962.
+
+`dataset_source_versions.csv` lists the 14 included datasets using public display labels, their source identifiers and DOIs, acquisition dates, source URLs, and SHA-256 hashes of the acquired archives and official-page snapshots. It identifies the source versions used for this benchmark; it does not redistribute the original datasets.

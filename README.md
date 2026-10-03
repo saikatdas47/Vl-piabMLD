@@ -19,7 +19,7 @@ The locked protocol and analysis plan are archived at [Zenodo](https://doi.org/1
 
 ### `01_STUDY_OVERVIEW/`
 
-Public analysis scope, sequential dataset display map, and dataset-level characteristics used in the reported analyses. This folder defines what was analysed before a reader moves to the implementation.
+Public analysis scope, sequential dataset display map, dataset-level characteristics, and `dataset_source_versions.csv` with source identifiers, access dates, and source-file hashes. This folder defines what was analysed before a reader moves to the implementation.
 
 ### `02_REPRODUCIBILITY_CODE/`
 
@@ -38,7 +38,7 @@ The frozen atomic result archive for the included analysis set, its validated ma
 
 ### `04_STATISTICAL_ANALYSES/`
 
-Primary contrasts, model-family analyses, sample-size analyses, moderator analyses, mixed-effects diagnostics, sensitivity analyses, hypothesis decisions, and reviewer-readable Excel workbooks.
+Primary contrasts, model-family analyses, sample-size analyses, moderator analyses, mixed-effects diagnostics, sensitivity analyses, hypothesis decisions, and reviewer-readable Excel workbooks. `01_PRIMARY_ANALYSIS/sample_size_summary.csv` counts independent datasets after averaging model-specific effects within each dataset; the 50%, 75%, and 100% denominators are 7, 13, and 14. The full-fold minority counts are provided in `02_SECONDARY_AND_SENSITIVITY/fold_class_counts.csv`.
 
 ### `05_FINAL_FIGURES/`
 
@@ -58,7 +58,7 @@ The exact commands depend on where a reader stores the independently acquired pu
 4. Collect and audit atomic outputs using `02_REPRODUCIBILITY_CODE/03_RESULT_COLLECTION/`.
 5. Recreate the primary tables using `02_REPRODUCIBILITY_CODE/04_STATISTICAL_ANALYSIS/build_final_analysis.py`.
 6. Prepare H3-H6 analysis data, fit the registered mixed-effects sensitivity model, and apply the prespecified fallback analyses using the remaining scripts in `04_STATISTICAL_ANALYSIS/`.
-7. Compare regenerated outputs with `03_VALIDATED_RESULTS/`, `04_STATISTICAL_ANALYSES/`, and the SHA-256 records in `06_REPRODUCIBILITY_RECORDS/`.
+7. Compare regenerated outputs with `03_VALIDATED_RESULTS/`, `04_STATISTICAL_ANALYSES/`, and the SHA-256 records in `06_REPRODUCIBILITY_RECORDS/`. The model-cell denominator in an earlier derived sample-size summary was corrected at the public reporting layer; the frozen atomic results were not changed.
 
 Detailed script order and input-output relationships are provided in `02_REPRODUCIBILITY_CODE/README.md`.
 
@@ -74,6 +74,7 @@ See `04_STATISTICAL_ANALYSES/03_INTERPRETATION/FINAL_HYPOTHESIS_REPORT.md` for t
 - Only the included validated analysis set is represented in public results.
 - Public tables and figures use sequential display labels.
 - Raw result files are frozen and hash-validated.
+- The source-version registry and fold-count table are descriptive provenance/support records, not additional analysis datasets or confirmatory tests.
 - Submission documents and author-only working records are maintained separately from this repository.
 
 ## Integrity checks

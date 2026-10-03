@@ -1,14 +1,14 @@
 {
   "release_status": "FIGURE_SYNC_VERIFIED",
   "verification_scope": "Figure synchronization and current-file hash inventory only",
-  "public_file_count_excluding_release_records": 11864,
+  "public_file_count_excluding_release_records": 11867,
   "included_dataset_count": 14,
   "validated_atomic_result_units": 2946,
   "atomic_summary_files": 2946,
   "final_figure_count": 11,
   "main_figure_count": 6,
   "supplementary_figure_count": 5,
-  "inventory_sha256": "75a31826c7bce0884153c3cc8fc63f7de24fd8548cad3b1169c3780854125650",
+  "inventory_sha256": "a323981ebfd31573b56f74d80860a270424f8daff3202e1fbe3fe51547b08177",
   "figures": [
     {
       "file": "05_FINAL_FIGURES/01_MAIN_TEXT/Figure_1_Methodology_Flowchart.png",
@@ -119,5 +119,7 @@
       "oversized": []
     }
   },
-  "end_to_end_reproduction_verified": false
+  "end_to_end_reproduction_verified": false,
+  "working_copy_status": "Includes preserved local changes not committed or pushed",
+  "synced_remote_commit": "db0871aa75244c350b9b393e92b6ff7c16d1a0f6"
 }
